@@ -499,7 +499,7 @@ text4 190C 195D CODE 190C 0
 %locals
 dist/default/production\pic18f14k22_nRF24L01.x.production.o
 C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h
-C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
+C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
 3940 16A8 0 CODE 0
 3942 16A8 0 CODE 0
 3945 16A8 0 CODE 0
@@ -1069,7 +1069,7 @@ mcc_generated_files/eusart1.c
 132 194E 0 CODE 0
 133 194E 0 CODE 0
 134 1956 0 CODE 0
-C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
+C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
 11337 8 0 CODE 0
 mcc_generated_files/interrupt_manager.c
 11 8 0 CODE 0

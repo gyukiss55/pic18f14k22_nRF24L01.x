@@ -80,7 +80,7 @@ void main(void) {
         while (1) {
 #if NRF24L01_TX_EX
             static char val = 0;
-            sprintf((char*)bufferTX, "Hello Arduino %d", val);
+            sprintf((char*)bufferTX, "PIC18F14K22 to ESP32: %d", val);
             printf("NRF24 Send Data: %s\r\n", bufferTX);
             nrf24_send_rf_data(bufferTX);
             val++;

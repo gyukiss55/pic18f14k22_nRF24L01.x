@@ -5,10 +5,10 @@ Linker command line:
 -W-3 --edf=E:\Program Files\Microchip\xc8\v2.36\pic\dat\en_msgs.txt -cn \
   -h+dist/default/production\pic18f14k22_nRF24L01.x.production.sym \
   --cmf=dist/default/production\pic18f14k22_nRF24L01.x.production.cmf -z \
-  -Q18F14K22 -oC:\Users\Apoca\AppData\Local\Temp\xcAso18.4 \
+  -Q18F14K22 -oC:\Users\Apoca\AppData\Local\Temp\xcAsf6k.4 \
   --defsym=__MPLAB_BUILD=1 \
   -Mdist/default/production/pic18f14k22_nRF24L01.x.production.map \
-  --md=C:\Users\Apoca\AppData\Local\Temp\xcAso18.dat -E1 -ver=XC8 Compiler \
+  --md=C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.dat -E1 -ver=XC8 Compiler \
   --acfsm=1493 -ACODE=00h-03FFFh -ACONST=00h-03FFFh \
   -ASMALLCONST=0200h-02FFhx62 -AMEDIUMCONST=0200h-03FFFh -ACOMRAM=01h-05Fh \
   -AABS1=00h-01FFh -ABIGRAM=01h-01FFh -ARAM=060h-0FFh,0100h-01FFh \
@@ -22,7 +22,7 @@ Linker command line:
   -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
   -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
   -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE -prparam=COMRAM \
-  C:\Users\Apoca\AppData\Local\Temp\xcAso18.o \
+  C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.o \
   dist/default/production\pic18f14k22_nRF24L01.x.production.o 
 
 Object code version is 3.11
@@ -32,7 +32,7 @@ Machine type is 18F14K22
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\Apoca\AppData\Local\Temp\xcAso18.o
+C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.o
                 idloc                            200000   200000        8        0       5
                 config                           300000   300000        E        0       4
                 init                                 66       66        4        4       0

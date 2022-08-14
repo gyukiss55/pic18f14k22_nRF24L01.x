@@ -62,7 +62,7 @@ dataBANK0 BANK0 1 B7 B7 F 1 1
 bssCOMRAM COMRAM 1 5B 5B 1 1 1
 mediumconst MEDIUMCONST 0 3B8E 3B8E 472 1 2
 config CONFIG 4 300000 300000 E 1 1
-$C:\Users\Apoca\AppData\Local\Temp\xcAso18.o
+$C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.o
 idloc IDLOC 5 200000 200000 8 1 1
 init CODE 0 66 66 4 1 2
 reset_vec CODE 0 0 0 4 1 2
@@ -106,7 +106,7 @@ MEDIUMCONST 195E-3B8D 1
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\pic18f14k22_nRF24L01.x.production.o
-8 intcode CODE >11337:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
+8 intcode CODE >11337:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
 8 intcode CODE >11:G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\mcc_generated_files/interrupt_manager.c
 12 intcode CODE >14:G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\mcc_generated_files/interrupt_manager.c
 2E intcode CODE >15:G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\mcc_generated_files/interrupt_manager.c
@@ -637,37 +637,37 @@ A68 text5 CODE >393:G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\nrf24_lib.c
 12D0 text0 CODE >104:G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\main.c
 12DC text0 CODE >105:G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\main.c
 12DC text0 CODE >107:G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\main.c
-16A8 cinit CODE >3940:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16A8 cinit CODE >3942:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16A8 cinit CODE >3945:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16A8 cinit CODE >4003:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16AA cinit CODE >4004:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16AC cinit CODE >4005:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16AE cinit CODE >4006:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16B0 cinit CODE >4007:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16B2 cinit CODE >4008:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16B4 cinit CODE >4009:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16B8 cinit CODE >4010:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16BC cinit CODE >4011:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16BC cinit CODE >4012:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16BE cinit CODE >4013:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16C2 cinit CODE >4014:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16C4 cinit CODE >4015:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16C6 cinit CODE >4016:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16C8 cinit CODE >4020:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16CC cinit CODE >4021:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16CE cinit CODE >4022:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16CE cinit CODE >4023:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16D0 cinit CODE >4024:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16D2 cinit CODE >4025:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16D4 cinit CODE >4028:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16D6 cinit CODE >4034:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16D6 cinit CODE >4036:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16D8 cinit CODE >4037:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16DA cinit CODE >4039:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16DC cinit CODE >4040:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16DE cinit CODE >4041:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
-16E0 cinit CODE >4042:C:\Users\Apoca\AppData\Local\Temp\xcAso18.s
+16A8 cinit CODE >3940:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16A8 cinit CODE >3942:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16A8 cinit CODE >3945:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16A8 cinit CODE >4003:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16AA cinit CODE >4004:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16AC cinit CODE >4005:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16AE cinit CODE >4006:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16B0 cinit CODE >4007:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16B2 cinit CODE >4008:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16B4 cinit CODE >4009:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16B8 cinit CODE >4010:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16BC cinit CODE >4011:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16BC cinit CODE >4012:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16BE cinit CODE >4013:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16C2 cinit CODE >4014:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16C4 cinit CODE >4015:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16C6 cinit CODE >4016:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16C8 cinit CODE >4020:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16CC cinit CODE >4021:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16CE cinit CODE >4022:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16CE cinit CODE >4023:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16D0 cinit CODE >4024:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16D2 cinit CODE >4025:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16D4 cinit CODE >4028:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16D6 cinit CODE >4034:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16D6 cinit CODE >4036:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16D8 cinit CODE >4037:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16DA cinit CODE >4039:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16DC cinit CODE >4040:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16DE cinit CODE >4041:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
+16E0 cinit CODE >4042:C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -693,7 +693,7 @@ _nrf24_read_register 18A2 0 CODE 0 text19 dist/default/production\pic18f14k22_nR
 __HidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production\pic18f14k22_nRF24L01.x.production.o
 EUSART1_SetErrorHandler@interruptHandler 4 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f14k22_nRF24L01.x.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\pic18f14k22_nRF24L01.x.production.o
-__mediumconst 3B8E 0 MEDIUMCONST 0 mediumconst C:\Users\Apoca\AppData\Local\Temp\xcAso18.o
+__mediumconst 3B8E 0 MEDIUMCONST 0 mediumconst C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.o
 _EUSART1_Initialize 157A 0 CODE 0 text28 dist/default/production\pic18f14k22_nRF24L01.x.production.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\pic18f14k22_nRF24L01.x.production.o
 __end_of_INTERRUPT_Initialize 195C 0 CODE 0 text27 dist/default/production\pic18f14k22_nRF24L01.x.production.o
@@ -704,10 +704,10 @@ __Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\pic18f14k22_nR
 _LATA F89 0 ABS 0 - dist/default/production\pic18f14k22_nRF24L01.x.production.o
 _LATB F8A 0 ABS 0 - dist/default/production\pic18f14k22_nRF24L01.x.production.o
 _LATC F8B 0 ABS 0 - dist/default/production\pic18f14k22_nRF24L01.x.production.o
-___sp 0 0 STACK 2 stack C:\Users\Apoca\AppData\Local\Temp\xcAso18.o
+___sp 0 0 STACK 2 stack C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.o
 _main 11A2 0 CODE 0 text0 dist/default/production\pic18f14k22_nRF24L01.x.production.o
 btemp 5C 0 COMRAM 1 temp dist/default/production\pic18f14k22_nRF24L01.x.production.o
-start 66 0 CODE 0 init C:\Users\Apoca\AppData\Local\Temp\xcAso18.o
+start 66 0 CODE 0 init C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.o
 _TMR0_InterruptHandler C6 0 BANK0 1 nvBANK0 dist/default/production\pic18f14k22_nRF24L01.x.production.o
 nrf24_write_buff@bytes 8 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f14k22_nRF24L01.x.production.o
 __HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\pic18f14k22_nRF24L01.x.production.o
@@ -730,11 +730,11 @@ __LnvCOMRAM 0 0 ABS 0 nvCOMRAM dist/default/production\pic18f14k22_nRF24L01.x.pr
 nrf24_printf_rf_config@aw 53 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f14k22_nRF24L01.x.production.o
 TMR0_SetInterruptHandler@InterruptHandler 4 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f14k22_nRF24L01.x.production.o
 _nrf24_read_rf_data 1822 0 CODE 0 text14 dist/default/production\pic18f14k22_nRF24L01.x.production.o
-__accesstop 60 0 ABS 0 - C:\Users\Apoca\AppData\Local\Temp\xcAso18.o
-intlevel0 0 0 CODE 0 text C:\Users\Apoca\AppData\Local\Temp\xcAso18.o
-intlevel1 0 0 CODE 0 text C:\Users\Apoca\AppData\Local\Temp\xcAso18.o
-intlevel2 0 0 CODE 0 text C:\Users\Apoca\AppData\Local\Temp\xcAso18.o
-intlevel3 0 0 CODE 0 text C:\Users\Apoca\AppData\Local\Temp\xcAso18.o
+__accesstop 60 0 ABS 0 - C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.o
+intlevel0 0 0 CODE 0 text C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.o
+intlevel1 0 0 CODE 0 text C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.o
+intlevel2 0 0 CODE 0 text C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.o
+intlevel3 0 0 CODE 0 text C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.o
 __LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\pic18f14k22_nRF24L01.x.production.o
 _OSCCONbits FD3 0 ABS 0 - dist/default/production\pic18f14k22_nRF24L01.x.production.o
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\pic18f14k22_nRF24L01.x.production.o
@@ -751,9 +751,9 @@ printf@prec 30 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f14k22_nRF24
 _SPI1_Initialize 17DA 0 CODE 0 text24 dist/default/production\pic18f14k22_nRF24L01.x.production.o
 _ANSELH F7F 0 ABS 0 - dist/default/production\pic18f14k22_nRF24L01.x.production.o
 _TMR0_DefaultInterruptHandler 195C 0 CODE 0 text35 dist/default/production\pic18f14k22_nRF24L01.x.production.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\Apoca\AppData\Local\Temp\xcAso18.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.o
 printf@width 2E 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f14k22_nRF24L01.x.production.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\Apoca\AppData\Local\Temp\xcAso18.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.o
 nrf24_read_rf_data@buffer B 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f14k22_nRF24L01.x.production.o
 __end_of_INTERRUPT_InterruptManager 66 0 CODE 0 intcode dist/default/production\pic18f14k22_nRF24L01.x.production.o
 __end_of_nrf24_read_register 18BC 0 CODE 0 text19 dist/default/production\pic18f14k22_nRF24L01.x.production.o
@@ -799,7 +799,7 @@ _hexpowers 3BAD 0 MEDIUMCONST 0 mediumconst dist/default/production\pic18f14k22_
 __end_of_printf 11A2 0 CODE 0 text6 dist/default/production\pic18f14k22_nRF24L01.x.production.o
 _EUSART1_DefaultFramingErrorHandler 0 0 ABS 0 - dist/default/production\pic18f14k22_nRF24L01.x.production.o
 _EUSART1_DefaultOverrunErrorHandler 0 0 ABS 0 - dist/default/production\pic18f14k22_nRF24L01.x.production.o
-isa$xinst 0 0 ABS 0 - C:\Users\Apoca\AppData\Local\Temp\xcAso18.o
+isa$xinst 0 0 ABS 0 - C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.o
 _nrf24_is_rf_data_available 1844 0 CODE 0 text18 dist/default/production\pic18f14k22_nRF24L01.x.production.o
 nrf24_printf_rf_config@i 54 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f14k22_nRF24L01.x.production.o
 nrf24_printf_rf_config@j 52 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f14k22_nRF24L01.x.production.o
@@ -832,7 +832,7 @@ __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\pic18f14k22_nRF24L01.x.pro
 __Hbigram 0 0 ABS 0 bigram dist/default/production\pic18f14k22_nRF24L01.x.production.o
 __Hbigsfr 0 0 ABS 0 bigsfr dist/default/production\pic18f14k22_nRF24L01.x.production.o
 EUSART1_Initialize@brg16 8 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f14k22_nRF24L01.x.production.o
-__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\Apoca\AppData\Local\Temp\xcAso18.o
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.o
 __Hcomram 0 0 ABS 0 comram dist/default/production\pic18f14k22_nRF24L01.x.production.o
 __Hconfig 30000E 0 CONFIG 4 config dist/default/production\pic18f14k22_nRF24L01.x.production.o
 _nrf24_rf_init 12E4 0 CODE 0 text1 dist/default/production\pic18f14k22_nRF24L01.x.production.o
@@ -1000,13 +1000,13 @@ ___lwdiv@divisor 6 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f14k22_n
 _SPI1_ExchangeByte 16E4 0 CODE 0 text20 dist/default/production\pic18f14k22_nRF24L01.x.production.o
 _TMR0_SetInterruptHandler 1930 0 CODE 0 text23 dist/default/production\pic18f14k22_nRF24L01.x.production.o
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\pic18f14k22_nRF24L01.x.production.o
-isa$std 1 0 ABS 0 - C:\Users\Apoca\AppData\Local\Temp\xcAso18.o
+isa$std 1 0 ABS 0 - C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.o
 __end_of_nrf24_read_buff 1662 0 CODE 0 text15 dist/default/production\pic18f14k22_nRF24L01.x.production.o
 __end_of_SPI1_Open 18A2 0 CODE 0 text13 dist/default/production\pic18f14k22_nRF24L01.x.production.o
 _nrf24_set_channel_frq 190C 0 CODE 0 text4 dist/default/production\pic18f14k22_nRF24L01.x.production.o
 __end_of_EUSART1_SetFramingErrorHandler 194E 0 CODE 0 text30 dist/default/production\pic18f14k22_nRF24L01.x.production.o
-stackhi 0 0 ABS 0 - C:\Users\Apoca\AppData\Local\Temp\xcAso18.o
-stacklo 0 0 ABS 0 - C:\Users\Apoca\AppData\Local\Temp\xcAso18.o
+stackhi 0 0 ABS 0 - C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.o
+stacklo 0 0 ABS 0 - C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.o
 __end_of_EUSART1_SetOverrunErrorHandler 1944 0 CODE 0 text29 dist/default/production\pic18f14k22_nRF24L01.x.production.o
 __end_of_nrf24_printf_rf_config A6A 0 CODE 0 text5 dist/default/production\pic18f14k22_nRF24L01.x.production.o
 __end_of_EUSART1_Write 18EC 0 CODE 0 text8 dist/default/production\pic18f14k22_nRF24L01.x.production.o
@@ -1091,7 +1091,7 @@ __Ltext34 0 0 ABS 0 text34 dist/default/production\pic18f14k22_nRF24L01.x.produc
 __Ltext35 0 0 ABS 0 text35 dist/default/production\pic18f14k22_nRF24L01.x.production.o
 __Ltext36 0 0 ABS 0 text36 dist/default/production\pic18f14k22_nRF24L01.x.production.o
 __Ltext37 0 0 ABS 0 text37 dist/default/production\pic18f14k22_nRF24L01.x.production.o
-__ramtop 200 0 RAM 0 ramtop C:\Users\Apoca\AppData\Local\Temp\xcAso18.o
+__ramtop 200 0 RAM 0 ramtop C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.o
 __end_of_TMR0_CallBack 17B4 0 CODE 0 text34 dist/default/production\pic18f14k22_nRF24L01.x.production.o
 _MASTER0_open 0 0 ABS 0 - dist/default/production\pic18f14k22_nRF24L01.x.production.o
 __Lpowerup 66 0 CODE 0 powerup dist/default/production\pic18f14k22_nRF24L01.x.production.o
@@ -1100,8 +1100,8 @@ _isdigit 1752 0 CODE 0 text9 dist/default/production\pic18f14k22_nRF24L01.x.prod
 _SPI1_ReadBlock 0 0 ABS 0 - dist/default/production\pic18f14k22_nRF24L01.x.production.o
 __Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\pic18f14k22_nRF24L01.x.production.o
 nrf24_read_buff@i A 0 COMRAM 1 cstackCOMRAM dist/default/production\pic18f14k22_nRF24L01.x.production.o
-___heap_hi 0 0 ABS 0 - C:\Users\Apoca\AppData\Local\Temp\xcAso18.o
-___heap_lo 0 0 ABS 0 - C:\Users\Apoca\AppData\Local\Temp\xcAso18.o
+___heap_hi 0 0 ABS 0 - C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.o
+___heap_lo 0 0 ABS 0 - C:\Users\Apoca\AppData\Local\Temp\xcAsf6k.o
 ___param_bank 0 0 ABS 0 - dist/default/production\pic18f14k22_nRF24L01.x.production.o
 __Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\pic18f14k22_nRF24L01.x.production.o
 __end_of__initialization 16D6 0 CODE 0 cinit dist/default/production\pic18f14k22_nRF24L01.x.production.o
