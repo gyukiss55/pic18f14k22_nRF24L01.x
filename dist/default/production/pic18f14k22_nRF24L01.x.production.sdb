@@ -1,0 +1,910 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F14K22 ]
+[d frameptr 4065 ]
+"42 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\mcc_generated_files/drivers/spi_master.c
+[e E93 . `uc
+MASTER0_CONFIG 0
+SPI1_DEFAULT 1
+]
+"56
+[e E115 . `uc
+MASTER0 0
+]
+"45 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\mcc_generated_files/spi1.c
+[e E93 . `uc
+MASTER0_CONFIG 0
+SPI1_DEFAULT 1
+]
+"9 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\main.c
+[e E2474 . `uc
+NRF24_INIT_OK 0
+NRF24_INIT_FAILED 1
+]
+"64
+[e E2364 . `uc
+MASTER0_CONFIG 0
+SPI1_DEFAULT 1
+]
+"69
+[e E2478 . `uc
+RX_MODE 1
+TX_MODE 2
+]
+"62 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\nrf24_lib.c
+[e E2474 . `uc
+NRF24_INIT_OK 0
+NRF24_INIT_FAILED 1
+]
+"64
+[e E2364 . `uc
+MASTER0_CONFIG 0
+SPI1_DEFAULT 1
+]
+"134
+[e E2478 . `uc
+RX_MODE 1
+TX_MODE 2
+]
+"477 E:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+"4 E:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 E:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 E:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 E:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 E:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 E:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"8 E:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+"7 E:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"7 E:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 E:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 E:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 E:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 E:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 E:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 E:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul64.c
+[v ___omul __omul `(ul  1 e 4 0 ]
+"18 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\main.c
+[v _blink_led blink_led `(v  1 e 1 0 ]
+"25
+[v _main main `(v  1 e 1 0 ]
+"41 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\mcc_generated_files/drivers/spi_master.c
+[v _MASTER0_open MASTER0_open `(a  1 e 1 0 ]
+"21 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+"71
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+"90
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+"104
+[v _putch putch `(v  1 e 1 0 ]
+"111
+[v _EUSART1_DefaultFramingErrorHandler EUSART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"113
+[v _EUSART1_DefaultOverrunErrorHandler EUSART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"121
+[v _EUSART1_DefaultErrorHandler EUSART1_DefaultErrorHandler `(v  1 e 1 0 ]
+"124
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+"128
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"132
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+"5 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"11
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+"5 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"15
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"8 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"17 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\mcc_generated_files/spi1.c
+[v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
+"45
+[v _SPI1_Open SPI1_Open `(a  1 e 1 0 ]
+"57
+[v _SPI1_Close SPI1_Close `(v  1 e 1 0 ]
+"62
+[v _SPI1_ExchangeByte SPI1_ExchangeByte `(uc  1 e 1 0 ]
+"76
+[v _SPI1_ExchangeBlock SPI1_ExchangeBlock `(v  1 e 1 0 ]
+"92
+[v _SPI1_WriteBlock SPI1_WriteBlock `(v  1 e 1 0 ]
+"101
+[v _SPI1_ReadBlock SPI1_ReadBlock `(v  1 e 1 0 ]
+"110
+[v _SPI1_WriteByte SPI1_WriteByte `(v  1 e 1 0 ]
+"115
+[v _SPI1_ReadByte SPI1_ReadByte `(uc  1 e 1 0 ]
+"22 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"91
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"109
+[v _TMR0_CallBack TMR0_CallBack `(v  1 e 1 0 ]
+"119
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+"123
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"8 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\nrf24_lib.c
+[v _nrf24_write_register nrf24_write_register `(v  1 e 1 0 ]
+"27
+[v _nrf24_read_register nrf24_read_register `(uc  1 e 1 0 ]
+"36
+[v _nrf24_write_buff nrf24_write_buff `(v  1 e 1 0 ]
+"50
+[v _nrf24_read_buff nrf24_read_buff `(v  1 e 1 0 ]
+"62
+[v _nrf24_rf_init nrf24_rf_init `(E2474  1 e 1 0 ]
+"148
+[v _nrf24_set_rf_mode nrf24_set_rf_mode `(v  1 e 1 0 ]
+"170
+[v _nrf24_is_rf_data_available nrf24_is_rf_data_available `(uc  1 e 1 0 ]
+"177
+[v _nrf24_read_rf_data nrf24_read_rf_data `(v  1 e 1 0 ]
+"183
+[v _nrf24_set_channel_frq nrf24_set_channel_frq `(v  1 e 1 0 ]
+"196
+[v _nrf24_flush_tx_rx nrf24_flush_tx_rx `(v  1 e 1 0 ]
+"214
+[v _nrf24_printf_rf_config nrf24_printf_rf_config `(v  1 e 1 0 ]
+"32 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x/nrf24_lib.h
+[v _ADDRESS_DATA_RXPIPE0 ADDRESS_DATA_RXPIPE0 `[5]uc  1 e 5 0 ]
+"34
+[v _ADDRESS_DATA_TXPIPE0 ADDRESS_DATA_TXPIPE0 `[5]uc  1 e 5 0 ]
+"770 C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h
+[v _ANSEL ANSEL `VEuc  1 e 1 @3966 ]
+"890
+[v _ANSELH ANSELH `VEuc  1 e 1 @3967 ]
+"1543
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+[s S1321 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+]
+"1566
+[s S1328 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+]
+[u S1335 . 1 `S1321 1 . 1 0 `S1328 1 . 1 0 ]
+[v _LATAbits LATAbits `VES1335  1 e 1 @3977 ]
+"1621
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"1687
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+[s S701 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"1714
+[s S710 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 LC3 1 0 :1:3 
+`uc 1 LC4 1 0 :1:4 
+`uc 1 LC5 1 0 :1:5 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+[u S719 . 1 `S701 1 . 1 0 `S710 1 . 1 0 ]
+[v _LATCbits LATCbits `VES719  1 e 1 @3979 ]
+"1799
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1953
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+[s S673 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1979
+[s S679 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S685 . 1 `S673 1 . 1 0 `S679 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES685  1 e 1 @3987 ]
+"2083
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S293 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"2115
+[s S302 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S311 . 1 `S293 1 . 1 0 `S302 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES311  1 e 1 @3988 ]
+[s S897 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+]
+"2396
+[s S905 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+]
+[u S909 . 1 `S897 1 . 1 0 `S905 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES909  1 e 1 @3997 ]
+[s S513 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"2467
+[s S521 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[u S525 . 1 `S513 1 . 1 0 `S521 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES525  1 e 1 @3998 ]
+[s S869 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TMR3IE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BCLIE 1 0 :1:3 
+`uc 1 EEIE 1 0 :1:4 
+`uc 1 C2IE 1 0 :1:5 
+`uc 1 C1IE 1 0 :1:6 
+`uc 1 OSCFIE 1 0 :1:7 
+]
+"2609
+[s S878 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CMIE 1 0 :1:6 
+]
+[u S881 . 1 `S869 1 . 1 0 `S878 1 . 1 0 ]
+[v _PIE2bits PIE2bits `VES881  1 e 1 @4000 ]
+[s S944 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TMR3IF 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BCLIF 1 0 :1:3 
+`uc 1 EEIF 1 0 :1:4 
+`uc 1 C2IF 1 0 :1:5 
+`uc 1 C1IF 1 0 :1:6 
+`uc 1 OSCFIF 1 0 :1:7 
+]
+"2670
+[s S953 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 CMIF 1 0 :1:6 
+]
+[u S956 . 1 `S944 1 . 1 0 `S953 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES956  1 e 1 @4001 ]
+[s S335 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"2954
+[s S344 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S347 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[s S350 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S353 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S356 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[u S358 . 1 `S335 1 . 1 0 `S344 1 . 1 0 `S347 1 . 1 0 `S350 1 . 1 0 `S353 1 . 1 0 `S356 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES358  1 e 1 @4011 ]
+[s S431 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"3162
+[s S440 . 1 `uc 1 TX9D1 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+`uc 1 BRGH1 1 0 :1:2 
+`uc 1 SENDB1 1 0 :1:3 
+`uc 1 SYNC1 1 0 :1:4 
+`uc 1 TXEN1 1 0 :1:5 
+`uc 1 TX91 1 0 :1:6 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S449 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S452 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[u S454 . 1 `S431 1 . 1 0 `S440 1 . 1 0 `S449 1 . 1 0 `S452 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES454  1 e 1 @4012 ]
+"3379
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"3396
+[v _RCREG1 RCREG1 `VEuc  1 e 1 @4014 ]
+"3403
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"3415
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
+[s S389 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 CKTXP 1 0 :1:4 
+`uc 1 DTRXP 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"3736
+[s S398 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP 1 0 :1:4 
+]
+[s S401 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RXCKP 1 0 :1:5 
+]
+[s S404 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 W4E 1 0 :1:1 
+]
+[u S407 . 1 `S389 1 . 1 0 `S398 1 . 1 0 `S401 1 . 1 0 `S404 1 . 1 0 ]
+[v _BAUDCONbits BAUDCONbits `VES407  1 e 1 @4024 ]
+"4661
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+[s S625 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"4681
+[s S631 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[u S636 . 1 `S625 1 . 1 0 `S631 1 . 1 0 ]
+[v _SSPCON1bits SSPCON1bits `VES636  1 e 1 @4038 ]
+[s S741 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"4807
+[s S744 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S747 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S756 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S761 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 A 1 0 :1:5 
+]
+[s S766 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S771 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S776 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S779 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S782 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S787 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW 1 0 :1:2 
+`uc 1 START 1 0 :1:3 
+`uc 1 STOP 1 0 :1:4 
+`uc 1 DA 1 0 :1:5 
+]
+[s S793 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 NOT_A 1 0 :1:5 
+]
+[u S798 . 1 `S741 1 . 1 0 `S744 1 . 1 0 `S747 1 . 1 0 `S756 1 . 1 0 `S761 1 . 1 0 `S766 1 . 1 0 `S771 1 . 1 0 `S776 1 . 1 0 `S779 1 . 1 0 `S782 1 . 1 0 `S787 1 . 1 0 `S793 1 . 1 0 ]
+[v _SSPSTATbits SSPSTATbits `VES798  1 e 1 @4039 ]
+"4959
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+[s S1170 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"5321
+[s S1172 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S1175 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S1178 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S1181 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S1184 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S1193 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+]
+[u S1199 . 1 `S1170 1 . 1 0 `S1172 1 . 1 0 `S1175 1 . 1 0 `S1178 1 . 1 0 `S1181 1 . 1 0 `S1184 1 . 1 0 `S1193 1 . 1 0 ]
+[v _RCONbits RCONbits `VES1199  1 e 1 @4048 ]
+[s S169 . 1 `uc 1 SCS 1 0 :2:0 
+`uc 1 HFIOFS 1 0 :1:2 
+`uc 1 OSTS 1 0 :1:3 
+`uc 1 IRCF 1 0 :3:4 
+`uc 1 IDLEN 1 0 :1:7 
+]
+"5494
+[s S175 . 1 `uc 1 SCS0 1 0 :1:0 
+`uc 1 SCS1 1 0 :1:1 
+`uc 1 FLTS 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IRCF0 1 0 :1:4 
+`uc 1 IRCF1 1 0 :1:5 
+`uc 1 IRCF2 1 0 :1:6 
+]
+[u S183 . 1 `S169 1 . 1 0 `S175 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES183  1 e 1 @4051 ]
+"5554
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+[s S1061 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"5574
+[s S1068 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+]
+[u S1072 . 1 `S1061 1 . 1 0 `S1068 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES1072  1 e 1 @4053 ]
+"5631
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"5638
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+[s S216 . 1 `uc 1 RABIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RABIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"6125
+[s S225 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S234 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[s S238 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 PIE 1 0 :1:6 
+]
+[u S241 . 1 `S216 1 . 1 0 `S225 1 . 1 0 `S234 1 . 1 0 `S238 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES241  1 e 1 @4082 ]
+"358 E:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\doprnt.c
+[v _dpowers dpowers `C[5]ui  1 s 10 dpowers ]
+"366
+[v _hexpowers hexpowers `C[4]ui  1 s 8 hexpowers ]
+"9 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\main.c
+[v _ret ret `E2474  1 e 1 0 ]
+"13
+[v _bufferRX bufferRX `[32]uc  1 e 32 0 ]
+[s S282 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"7 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\mcc_generated_files/eusart1.c
+[u S287 . 1 `S282 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusart1RxLastError eusart1RxLastError `VES287  1 e 1 0 ]
+"13
+[v _EUSART1_FramingErrorHandler EUSART1_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"14
+[v _EUSART1_OverrunErrorHandler EUSART1_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"15
+[v _EUSART1_ErrorHandler EUSART1_ErrorHandler `*.37(v  1 e 2 0 ]
+"13 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\mcc_generated_files/spi1.c
+[v _spi_rx_data_ready spi_rx_data_ready `VEa  1 e 1 0 ]
+"13 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\mcc_generated_files/tmr0.c
+[v _TMR0_InterruptHandler TMR0_InterruptHandler `*.37(v  1 e 2 0 ]
+"15
+[v _timer0ReloadVal timer0ReloadVal `VEui  1 e 2 0 ]
+"25 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"93
+[v main@i i `uc  1 a 1 2 ]
+"109
+} 0
+"62 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\nrf24_lib.c
+[v _nrf24_rf_init nrf24_rf_init `(E2474  1 e 1 0 ]
+{
+[v nrf24_rf_init@mode mode `uc  1 a 1 wreg ]
+"63
+[v nrf24_rf_init@stat stat `E2474  1 a 1 87 ]
+"62
+[v nrf24_rf_init@mode mode `uc  1 a 1 wreg ]
+[v nrf24_rf_init@rf_channel rf_channel `uc  1 p 1 84 ]
+[v nrf24_rf_init@mode mode `uc  1 a 1 86 ]
+"146
+} 0
+"36
+[v _nrf24_write_buff nrf24_write_buff `(v  1 e 1 0 ]
+{
+[v nrf24_write_buff@mnemonic_addr mnemonic_addr `uc  1 a 1 wreg ]
+"37
+[v nrf24_write_buff@i i `uc  1 a 1 9 ]
+"36
+[v nrf24_write_buff@mnemonic_addr mnemonic_addr `uc  1 a 1 wreg ]
+[v nrf24_write_buff@buffer buffer `*.39uc  1 p 2 5 ]
+[v nrf24_write_buff@bytes bytes `uc  1 p 1 7 ]
+"38
+[v nrf24_write_buff@mnemonic_addr mnemonic_addr `uc  1 a 1 8 ]
+"48
+} 0
+"148
+[v _nrf24_set_rf_mode nrf24_set_rf_mode `(v  1 e 1 0 ]
+{
+[v nrf24_set_rf_mode@mode mode `E2478  1 a 1 wreg ]
+[v nrf24_set_rf_mode@mode mode `E2478  1 a 1 wreg ]
+[v nrf24_set_rf_mode@mode mode `E2478  1 a 1 9 ]
+"160
+} 0
+"183
+[v _nrf24_set_channel_frq nrf24_set_channel_frq `(v  1 e 1 0 ]
+{
+[v nrf24_set_channel_frq@rf_channel rf_channel `uc  1 a 1 wreg ]
+[v nrf24_set_channel_frq@rf_channel rf_channel `uc  1 a 1 wreg ]
+[v nrf24_set_channel_frq@rf_channel rf_channel `uc  1 a 1 7 ]
+"185
+} 0
+"214
+[v _nrf24_printf_rf_config nrf24_printf_rf_config `(v  1 e 1 0 ]
+{
+"217
+[v nrf24_printf_rf_config@buf buf `[5]uc  1 a 5 76 ]
+"215
+[v nrf24_printf_rf_config@i i `uc  1 a 1 83 ]
+"216
+[v nrf24_printf_rf_config@aw aw `uc  1 a 1 82 ]
+"215
+[v nrf24_printf_rf_config@j j `uc  1 a 1 81 ]
+"393
+} 0
+"477 E:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"1526
+[v printf@idx idx `uc  1 a 1 33 ]
+"514
+[v printf@width width `i  1 a 2 45 ]
+"545
+[v printf@val val `ui  1 a 2 42 ]
+"546
+[v printf@len len `ui  1 a 2 40 ]
+"479
+[v printf@ap ap `[1]*.39v  1 a 2 38 ]
+"547
+[v printf@cp cp `*.35Cuc  1 a 2 36 ]
+"512
+[v printf@c c `uc  1 a 1 48 ]
+"521
+[v printf@prec prec `c  1 a 1 47 ]
+"525
+[v printf@flag flag `uc  1 a 1 44 ]
+"477
+[v printf@f f `*.25Cuc  1 p 2 15 ]
+"1567
+} 0
+"104 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\mcc_generated_files/eusart1.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@txData txData `uc  1 a 1 wreg ]
+[v putch@txData txData `uc  1 a 1 wreg ]
+"106
+[v putch@txData txData `uc  1 a 1 4 ]
+"107
+} 0
+"90
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+{
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 3 ]
+"97
+} 0
+"8 E:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+{
+[v isdigit@c c `uc  1 a 1 wreg ]
+[v isdigit@c c `uc  1 a 1 wreg ]
+"14
+[v isdigit@c c `uc  1 a 1 5 ]
+"15
+} 0
+"15 E:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 7 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 3 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 5 ]
+"53
+} 0
+"7 E:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 14 ]
+"7
+[v ___lwmod@dividend dividend `ui  1 p 2 10 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 12 ]
+"25
+} 0
+"7 E:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 8 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 7 ]
+"7
+[v ___lwdiv@dividend dividend `ui  1 p 2 3 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 5 ]
+"30
+} 0
+"45 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\mcc_generated_files/spi1.c
+[v _SPI1_Open SPI1_Open `(a  1 e 1 0 ]
+{
+"55
+} 0
+"177 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\nrf24_lib.c
+[v _nrf24_read_rf_data nrf24_read_rf_data `(v  1 e 1 0 ]
+{
+[v nrf24_read_rf_data@buffer buffer `*.39uc  1 p 2 10 ]
+"181
+} 0
+"50
+[v _nrf24_read_buff nrf24_read_buff `(v  1 e 1 0 ]
+{
+[v nrf24_read_buff@mnemonic_addr mnemonic_addr `uc  1 a 1 wreg ]
+"51
+[v nrf24_read_buff@i i `uc  1 a 1 9 ]
+"50
+[v nrf24_read_buff@mnemonic_addr mnemonic_addr `uc  1 a 1 wreg ]
+[v nrf24_read_buff@buffer buffer `*.39uc  1 p 2 5 ]
+[v nrf24_read_buff@bytes bytes `uc  1 p 1 7 ]
+"52
+[v nrf24_read_buff@mnemonic_addr mnemonic_addr `uc  1 a 1 8 ]
+"60
+} 0
+"196
+[v _nrf24_flush_tx_rx nrf24_flush_tx_rx `(v  1 e 1 0 ]
+{
+"211
+} 0
+"8
+[v _nrf24_write_register nrf24_write_register `(v  1 e 1 0 ]
+{
+[v nrf24_write_register@mnemonic_addr mnemonic_addr `uc  1 a 1 wreg ]
+[v nrf24_write_register@mnemonic_addr mnemonic_addr `uc  1 a 1 wreg ]
+[v nrf24_write_register@value value `uc  1 p 1 5 ]
+[v nrf24_write_register@mnemonic_addr mnemonic_addr `uc  1 a 1 6 ]
+"25
+} 0
+"170
+[v _nrf24_is_rf_data_available nrf24_is_rf_data_available `(uc  1 e 1 0 ]
+{
+"175
+} 0
+"27
+[v _nrf24_read_register nrf24_read_register `(uc  1 e 1 0 ]
+{
+[v nrf24_read_register@mnemonic_addr mnemonic_addr `uc  1 a 1 wreg ]
+"28
+[v nrf24_read_register@byte0 byte0 `uc  1 a 1 6 ]
+"27
+[v nrf24_read_register@mnemonic_addr mnemonic_addr `uc  1 a 1 wreg ]
+"29
+[v nrf24_read_register@mnemonic_addr mnemonic_addr `uc  1 a 1 5 ]
+"34
+} 0
+"62 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\mcc_generated_files/spi1.c
+[v _SPI1_ExchangeByte SPI1_ExchangeByte `(uc  1 e 1 0 ]
+{
+[v SPI1_ExchangeByte@data data `uc  1 a 1 wreg ]
+"71
+[v SPI1_ExchangeByte@ret ret `uc  1 a 1 4 ]
+"62
+[v SPI1_ExchangeByte@data data `uc  1 a 1 wreg ]
+"64
+[v SPI1_ExchangeByte@data data `uc  1 a 1 3 ]
+"74
+} 0
+"5 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"13
+} 0
+"22 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"50
+} 0
+"119
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 3 ]
+"121
+} 0
+"17 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\mcc_generated_files/spi1.c
+[v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
+{
+"43
+} 0
+"8 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"47
+} 0
+"15 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"20
+} 0
+"5 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"9
+} 0
+"21 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+{
+"26
+[v EUSART1_Initialize@brg16 brg16 `uc  1 a 1 7 ]
+"25
+[v EUSART1_Initialize@brgh brgh `uc  1 a 1 6 ]
+"24
+[v EUSART1_Initialize@sync sync `uc  1 a 1 5 ]
+"50
+} 0
+"128
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 3 ]
+"130
+} 0
+"124
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 3 ]
+"126
+} 0
+"132
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 3 ]
+"134
+} 0
+"11 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+{
+"26
+} 0
+"91 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"107
+} 0
+"109
+[v _TMR0_CallBack TMR0_CallBack `(v  1 e 1 0 ]
+{
+"117
+} 0
+"123
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"126
+} 0
+"18 G:\Work\GitHub\_MyGit\pic18f14k22_nRF24L01.x\main.c
+[v _blink_led blink_led `(v  1 e 1 0 ]
+{
+"20
+} 0

@@ -1,0 +1,50 @@
+
+https://nrf24.github.io/RF24/
+
+
+
+3.3V
+GND
+
+XY-WB
+
+5-4  MISO - MOSI
+6-3  PKT  - SS
+7-2  GND  - CLK
+8-1..VCC  - RST
+
+NFR-8PANT
+
+5-4  PKT  - MISO
+6-3  MOSI - CLK
+7-2  SS   - RST
+8-1..VCC  - GND
+
+
+
+
+-----------------------
+PIC18F14K22
+-----------------------
+RB6 (11) SCLK SPI
+RB4 (13) SDI SPI
+RC7 ( 9  ) SDO SPI
+
+RC4 ( 6) RF_SPI_SS
+RC5 ( 5) RF_RST
+RC2 (14) RF_PKT
+
+IPR1 SSPIP
+PIR1 SSPIF
+PIE1 SSPIE
+
+RB5 (12) RX (kék)
+RB7 (10) TX (lila)
+mosi miso sclk ss
+23 19 18 5
+
+
+static const uint8_t SS    = 5;
+static const uint8_t MOSI  = 23;
+static const uint8_t MISO  = 19;
+static const uint8_t SCK   = 18;

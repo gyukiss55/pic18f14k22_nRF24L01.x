@@ -63,11 +63,11 @@ void main(void) {
 
     SPI1_Open(SPI1_DEFAULT);
 #if NRF24L01_TX_EX
-//    ret = nrf24_rf_init(TX_MODE, 115); // Tx mode with 2400+115 Ghz RF frq
-    ret = nrf24_rf_init(TX_MODE, 76); // Tx mode with 2400+115 Ghz RF frq
+    ret = nrf24_rf_init(TX_MODE, 115); // Tx mode with 2400+115 Ghz RF frq
+//    ret = nrf24_rf_init(TX_MODE, 76); // Tx mode with 2400+115 Ghz RF frq
 #elif NRF24L01_RX_EX
-//    ret = nrf24_rf_init(RX_MODE, 115); // Rx mode with 2400+115 Ghz RF frq
-    ret = nrf24_rf_init(RX_MODE, 76); // Rx mode with 2400+115 Ghz RF frq
+    ret = nrf24_rf_init(RX_MODE, 115); // Rx mode with 2400+115 Ghz RF frq
+//   ret = nrf24_rf_init(RX_MODE, 76); // Rx mode with 2400+115 Ghz RF frq
 #endif
 
     if (ret == NRF24_INIT_OK) {

@@ -64,36 +64,78 @@ NRF24_INIT_STATUS nrf24_rf_init(unsigned char mode, unsigned char rf_channel) {
     SPI_INIT();
     NRF24L01_CSN_SetOutput();
     NRF24L01_CE_SetOutput();
-    NRF24L01_CSN_L();
-    NRF24L01_CE_L();
+    NRF24L01_CSN_H();
+
+    NRF24L01_CE_H();
     __delay_us(100);
     NRF24L01_CE_L();
-        
-    nrf24_write_register(NRF24_MEM_CONFIG, 0x0C);
-    //__delay_us(10);
 
-    nrf24_write_register(NRF24_MEM_EN_AA, 0x3F);
-    nrf24_write_register(NRF24_MEM_EN_RXADDR, 0x03);
-    nrf24_write_register(NRF24_MEM_SETUP_AW, 0x03);
-    nrf24_write_register(NRF24_MEM_SETUP_RETR, 0xff);
+    /* NRF24_MEM_CONFIG (0x0)
+     * MASK_RX_DR 6 0 R/W Mask interrupt caused by RX_DR
+        1: Interrupt not reflected on the IRQ pin
+        0: Reflect RX_DR as active low interrupt on the
+        IRQ pin
+        MASK_TX_DS 5 0 R/W Mask interrupt caused by TX_DS
+        1: Interrupt not reflected on the IRQ pin
+        0: Reflect TX_DS as active low interrupt on the
+        IRQ pin
+        MASK_MAX_RT 4 0 R/W Mask interrupt caused by MAX_RT
+        1: Interrupt not reflected on the IRQ pin
+        0: Reflect MAX_RT as active low interrupt on the
+        IRQ pin
+        EN_CRC 3 1 R/W Enable CRC. Forced high if one of the bits in
+        the EN_AA is high
+        CRCO 2 0 R/W CRC encoding scheme
+        '0' - 1 byte
+        '1' ? 2 bytes
+        PWR_UP 1 0 R/W 1: POWER UP, 0:POWER DOWN
+        PRIM_RX 0 0 R/W RX/TX control
+        1: PRX, 0: PTX
+     */
+    nrf24_write_register(NRF24_MEM_CONFIG, 0x0B);
+    //__delay_us(10);
+    nrf24_write_register(NRF24_MEM_EN_AA, 0x00); // Enable auto acknowledgement data pipe 0-5 == 1 (0)
+    nrf24_write_register(NRF24_MEM_EN_RXADDR, 0x01); // Enable data pipe 0-5 == 1 (0)
+    nrf24_write_register(NRF24_MEM_SETUP_AW, 0x03); // Setup of Address Widths '11' ? 5 bytes (11)
+   /* NRF24_MEM_RX_ADDR_P0 (0xA) Receive address data pipe 0. 5 Bytes maximum
+    *  length. (LSByte is written first. Write the number
+    *  of bytes defined by SETUP_AW) (0xE7E7E7E7E7), 0xC2C2C2C2C2, 0xC2C2C2C2C3...
+    *  */
     nrf24_write_buff(NRF24_MEM_RX_ADDR_P0 , ADDRESS_DATA_RXPIPE0, 5);
-    //nrf24_write_buff(NRF24_MEM_RX_ADDR_P1 , ADDRESS_DATA_RXPIPE1, 5);
+    /*
+     * Transmit address. Used for a PTX device only.
+        (LSByte is written first)
+        Set RX_ADDR_P0 equal to this address to handle
+        automatic acknowledge if this is a PTX
+        device with Enhanced ShockBurst? enabled (0xE7E7E7E7E7)
+     */
     nrf24_write_buff(NRF24_MEM_TX_ADDR , ADDRESS_DATA_TXPIPE0, 5);
     
-    nrf24_write_register(NRF24_MEM_SETUP_RETR, 0xff);
+    nrf24_write_register(NRF24_MEM_SETUP_RETR, 0x00); // ARD Wait 250?S, ARC Re-Transmit disabled
     nrf24_set_channel_frq(rf_channel);
-    nrf24_write_register(NRF24_MEM_RF_SETUP, 0x00);
-    {
-        uint8_t w = nrf24_read_register(NRF24_MEM_RF_SETUP);
-        printf("NRF24_MEM_RF_SETUP = %x\n", w);
-    }
+    /*
+     * PLL_LOCK 4 0 R/W Force PLL lock signal. Only used in test
+        RF_DR 3 1 R/W Air Data Rate
+        ?0? ? 1Mbps
+        ?1? ? 2Mbps
+        RF_PWR 2:1 11 R/W Set RF output power in TX mode
+        '00' ? -18dBm
+        '01' ? -12dBm
+        '10' ? -6dBm
+        '11' ? 0dBm
+        LNA_HCURR 0 1 R/W Setup LNA gain
+     */
+    nrf24_write_register(NRF24_MEM_RF_SETUP, 0x07);
     //NRF24L01_WriteRegister(STATUSS, 0x70);
     
-    nrf24_write_register(NRF24_MEM_RX_PW_P0, PAYLOAD_BYTES);
+    nrf24_write_register(NRF24_MEM_RX_PW_P0, PAYLOAD_BYTES); // cNumber of bytes in RX payload in data pipe 0 (0) 0,1,..,32
         
     __delay_us(10);
     nrf24_set_rf_mode(mode);
     __delay_us(10);
+    
+    printf("nrf24_set_rf_mode(mode)\r\n"); // torold
+    nrf24_printf_rf_config ();
     
     if ((nrf24_read_register(NRF24_MEM_CONFIG) & 0x08) != 0){
       printf("rfCardPresent = TRUE\r\n");

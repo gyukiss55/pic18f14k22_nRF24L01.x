@@ -27,9 +27,9 @@ void SPI1_Initialize(void)
     SPI_CS = 1;
     
     SSPSTATbits.SMP = 0;
-    SSPSTATbits.CKE = 1;
+    SSPSTATbits.CKE = 0;
     
-    SSPCON1bits.CKP = 1;
+    SSPCON1bits.CKP = 0;
     SSPCON1bits.SSPM = 0b0001;
     
     PIE2bits.BCLIE = 1;

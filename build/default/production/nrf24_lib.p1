@@ -1,0 +1,1610 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"1693 C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 1693:     struct {
+[s S73 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S73 . LATC0 LATC1 LATC2 LATC3 LATC4 LATC5 LATC6 LATC7 ]
+"1703
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 1703:     struct {
+[s S74 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S74 . LC0 LC1 LC2 LC3 LC4 LC5 LC6 LC7 ]
+"1692
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 1692: typedef union {
+[u S72 `S73 1 `S74 1 ]
+[n S72 . . . ]
+"1714
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 1714: extern volatile LATCbits_t LATCbits __attribute__((address(0xF8B)));
+[v _LATCbits `VS72 ~T0 @X0 0 e@3979 ]
+"22 ./mcc_generated_files/drivers/../spi1.h
+[v _SPI1_ExchangeByte `(uc ~T0 @X0 0 ef1`uc ]
+[v F42 `(v ~T0 @X0 1 tf1`ul ]
+"12 C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\builtins.h
+[v __delay `JF42 ~T0 @X0 0 e ]
+[p i __delay ]
+"62 nrf24_lib.c
+[; ;nrf24_lib.c: 62: NRF24_INIT_STATUS nrf24_rf_init(unsigned char mode, unsigned char rf_channel) {
+[c E2474 0 1 .. ]
+[n E2474 . NRF24_INIT_OK NRF24_INIT_FAILED  ]
+"64
+[; ;nrf24_lib.c: 64:     SPI1_Open(SPI1_DEFAULT);
+[c E2364 0 1 .. ]
+[n E2364 . MASTER0_CONFIG SPI1_DEFAULT  ]
+"20 ./mcc_generated_files/drivers/../spi1.h
+[v _SPI1_Open `(a ~T0 @X0 0 ef1`E2364 ]
+"2094 C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 2094:     struct {
+[s S88 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S88 . TRISC0 TRISC1 TRISC2 TRISC3 TRISC4 TRISC5 TRISC6 TRISC7 ]
+"2104
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 2104:     struct {
+[s S89 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S89 . RC0 RC1 RC2 RC3 RC4 RC5 RC6 RC7 ]
+"2093
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 2093: typedef union {
+[u S87 `S88 1 `S89 1 ]
+[n S87 . . . ]
+"2115
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 2115: extern volatile TRISCbits_t TRISCbits __attribute__((address(0xF94)));
+[v _TRISCbits `VS87 ~T0 @X0 0 e@3988 ]
+"190 ./nrf24_lib.h
+[; ;./nrf24_lib.h: 190: void nrf24_set_channel_frq(unsigned char rf_channel);
+[v _nrf24_set_channel_frq `(v ~T0 @X0 0 ef1`uc ]
+"134 nrf24_lib.c
+[; ;nrf24_lib.c: 134:     nrf24_set_rf_mode(mode);
+[c E2478 1 2 .. ]
+[n E2478 . RX_MODE TX_MODE  ]
+"155 ./nrf24_lib.h
+[; ;./nrf24_lib.h: 155: void nrf24_set_rf_mode(NRF24_OPERATION_MODE mode);
+[v _nrf24_set_rf_mode `(v ~T0 @X0 0 ef1`E2478 ]
+"195 E:\Program Files\Microchip\xc8\v2.36\pic\include\c90\stdio.h
+[v _printf `(i ~T0 @X0 0 ev`*Cuc ]
+"218 ./nrf24_lib.h
+[; ;./nrf24_lib.h: 218: void nrf24_printf_rf_config(void);
+[v _nrf24_printf_rf_config `(v ~T0 @X0 0 ef ]
+"212
+[; ;./nrf24_lib.h: 212: void nrf24_flush_tx_rx(void);
+[v _nrf24_flush_tx_rx `(v ~T0 @X0 0 ef ]
+"55 C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 55: __asm("SRCON0 equ 0F68h");
+[; <" SRCON0 equ 0F68h ;# ">
+"126
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 126: __asm("SRCON1 equ 0F69h");
+[; <" SRCON1 equ 0F69h ;# ">
+"188
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 188: __asm("CM2CON0 equ 0F6Bh");
+[; <" CM2CON0 equ 0F6Bh ;# ">
+"258
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 258: __asm("CM2CON1 equ 0F6Ch");
+[; <" CM2CON1 equ 0F6Ch ;# ">
+"320
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 320: __asm("CM1CON0 equ 0F6Dh");
+[; <" CM1CON0 equ 0F6Dh ;# ">
+"390
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 390: __asm("SSPMSK equ 0F6Fh");
+[; <" SSPMSK equ 0F6Fh ;# ">
+"395
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 395: __asm("SSPMASK equ 0F6Fh");
+[; <" SSPMASK equ 0F6Fh ;# ">
+"528
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 528: __asm("SLRCON equ 0F76h");
+[; <" SLRCON equ 0F76h ;# ">
+"560
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 560: __asm("WPUA equ 0F77h");
+[; <" WPUA equ 0F77h ;# ">
+"618
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 618: __asm("WPUB equ 0F78h");
+[; <" WPUB equ 0F78h ;# ">
+"666
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 666: __asm("IOCA equ 0F79h");
+[; <" IOCA equ 0F79h ;# ">
+"724
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 724: __asm("IOCB equ 0F7Ah");
+[; <" IOCB equ 0F7Ah ;# ">
+"772
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 772: __asm("ANSEL equ 0F7Eh");
+[; <" ANSEL equ 0F7Eh ;# ">
+"892
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 892: __asm("ANSELH equ 0F7Fh");
+[; <" ANSELH equ 0F7Fh ;# ">
+"964
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 964: __asm("PORTA equ 0F80h");
+[; <" PORTA equ 0F80h ;# ">
+"1198
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 1198: __asm("PORTB equ 0F81h");
+[; <" PORTB equ 0F81h ;# ">
+"1306
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 1306: __asm("PORTC equ 0F82h");
+[; <" PORTC equ 0F82h ;# ">
+"1545
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 1545: __asm("LATA equ 0F89h");
+[; <" LATA equ 0F89h ;# ">
+"1623
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 1623: __asm("LATB equ 0F8Ah");
+[; <" LATB equ 0F8Ah ;# ">
+"1689
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 1689: __asm("LATC equ 0F8Bh");
+[; <" LATC equ 0F8Bh ;# ">
+"1801
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 1801: __asm("TRISA equ 0F92h");
+[; <" TRISA equ 0F92h ;# ">
+"1806
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 1806: __asm("DDRA equ 0F92h");
+[; <" DDRA equ 0F92h ;# ">
+"1955
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 1955: __asm("TRISB equ 0F93h");
+[; <" TRISB equ 0F93h ;# ">
+"1960
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 1960: __asm("DDRB equ 0F93h");
+[; <" DDRB equ 0F93h ;# ">
+"2085
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 2085: __asm("TRISC equ 0F94h");
+[; <" TRISC equ 0F94h ;# ">
+"2090
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 2090: __asm("DDRC equ 0F94h");
+[; <" DDRC equ 0F94h ;# ">
+"2307
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 2307: __asm("OSCTUNE equ 0F9Bh");
+[; <" OSCTUNE equ 0F9Bh ;# ">
+"2377
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 2377: __asm("PIE1 equ 0F9Dh");
+[; <" PIE1 equ 0F9Dh ;# ">
+"2448
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 2448: __asm("PIR1 equ 0F9Eh");
+[; <" PIR1 equ 0F9Eh ;# ">
+"2519
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 2519: __asm("IPR1 equ 0F9Fh");
+[; <" IPR1 equ 0F9Fh ;# ">
+"2590
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 2590: __asm("PIE2 equ 0FA0h");
+[; <" PIE2 equ 0FA0h ;# ">
+"2651
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 2651: __asm("PIR2 equ 0FA1h");
+[; <" PIR2 equ 0FA1h ;# ">
+"2712
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 2712: __asm("IPR2 equ 0FA2h");
+[; <" IPR2 equ 0FA2h ;# ">
+"2773
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 2773: __asm("EECON1 equ 0FA6h");
+[; <" EECON1 equ 0FA6h ;# ">
+"2839
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 2839: __asm("EECON2 equ 0FA7h");
+[; <" EECON2 equ 0FA7h ;# ">
+"2846
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 2846: __asm("EEDATA equ 0FA8h");
+[; <" EEDATA equ 0FA8h ;# ">
+"2853
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 2853: __asm("EEADR equ 0FA9h");
+[; <" EEADR equ 0FA9h ;# ">
+"2915
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 2915: __asm("RCSTA equ 0FABh");
+[; <" RCSTA equ 0FABh ;# ">
+"2920
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 2920: __asm("RCSTA1 equ 0FABh");
+[; <" RCSTA1 equ 0FABh ;# ">
+"3125
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 3125: __asm("TXSTA equ 0FACh");
+[; <" TXSTA equ 0FACh ;# ">
+"3130
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 3130: __asm("TXSTA1 equ 0FACh");
+[; <" TXSTA1 equ 0FACh ;# ">
+"3381
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 3381: __asm("TXREG equ 0FADh");
+[; <" TXREG equ 0FADh ;# ">
+"3386
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 3386: __asm("TXREG1 equ 0FADh");
+[; <" TXREG1 equ 0FADh ;# ">
+"3393
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 3393: __asm("RCREG equ 0FAEh");
+[; <" RCREG equ 0FAEh ;# ">
+"3398
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 3398: __asm("RCREG1 equ 0FAEh");
+[; <" RCREG1 equ 0FAEh ;# ">
+"3405
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 3405: __asm("SPBRG equ 0FAFh");
+[; <" SPBRG equ 0FAFh ;# ">
+"3410
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 3410: __asm("SPBRG1 equ 0FAFh");
+[; <" SPBRG1 equ 0FAFh ;# ">
+"3417
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 3417: __asm("SPBRGH equ 0FB0h");
+[; <" SPBRGH equ 0FB0h ;# ">
+"3424
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 3424: __asm("T3CON equ 0FB1h");
+[; <" T3CON equ 0FB1h ;# ">
+"3531
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 3531: __asm("TMR3 equ 0FB2h");
+[; <" TMR3 equ 0FB2h ;# ">
+"3538
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 3538: __asm("TMR3L equ 0FB2h");
+[; <" TMR3L equ 0FB2h ;# ">
+"3545
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 3545: __asm("TMR3H equ 0FB3h");
+[; <" TMR3H equ 0FB3h ;# ">
+"3552
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 3552: __asm("ECCP1AS equ 0FB6h");
+[; <" ECCP1AS equ 0FB6h ;# ">
+"3634
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 3634: __asm("PWM1CON equ 0FB7h");
+[; <" PWM1CON equ 0FB7h ;# ">
+"3704
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 3704: __asm("BAUDCON equ 0FB8h");
+[; <" BAUDCON equ 0FB8h ;# ">
+"3709
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 3709: __asm("BAUDCTL equ 0FB8h");
+[; <" BAUDCTL equ 0FB8h ;# ">
+"3870
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 3870: __asm("PSTRCON equ 0FB9h");
+[; <" PSTRCON equ 0FB9h ;# ">
+"3914
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 3914: __asm("VREFCON0 equ 0FBAh");
+[; <" VREFCON0 equ 0FBAh ;# ">
+"3919
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 3919: __asm("REFCON0 equ 0FBAh");
+[; <" REFCON0 equ 0FBAh ;# ">
+"3992
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 3992: __asm("VREFCON1 equ 0FBBh");
+[; <" VREFCON1 equ 0FBBh ;# ">
+"3997
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 3997: __asm("REFCON1 equ 0FBBh");
+[; <" REFCON1 equ 0FBBh ;# ">
+"4124
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 4124: __asm("VREFCON2 equ 0FBCh");
+[; <" VREFCON2 equ 0FBCh ;# ">
+"4129
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 4129: __asm("REFCON2 equ 0FBCh");
+[; <" REFCON2 equ 0FBCh ;# ">
+"4226
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 4226: __asm("CCP1CON equ 0FBDh");
+[; <" CCP1CON equ 0FBDh ;# ">
+"4308
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 4308: __asm("CCPR1 equ 0FBEh");
+[; <" CCPR1 equ 0FBEh ;# ">
+"4315
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 4315: __asm("CCPR1L equ 0FBEh");
+[; <" CCPR1L equ 0FBEh ;# ">
+"4322
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 4322: __asm("CCPR1H equ 0FBFh");
+[; <" CCPR1H equ 0FBFh ;# ">
+"4329
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 4329: __asm("ADCON2 equ 0FC0h");
+[; <" ADCON2 equ 0FC0h ;# ">
+"4400
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 4400: __asm("ADCON1 equ 0FC1h");
+[; <" ADCON1 equ 0FC1h ;# ">
+"4461
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 4461: __asm("ADCON0 equ 0FC2h");
+[; <" ADCON0 equ 0FC2h ;# ">
+"4580
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 4580: __asm("ADRES equ 0FC3h");
+[; <" ADRES equ 0FC3h ;# ">
+"4587
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 4587: __asm("ADRESL equ 0FC3h");
+[; <" ADRESL equ 0FC3h ;# ">
+"4594
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 4594: __asm("ADRESH equ 0FC4h");
+[; <" ADRESH equ 0FC4h ;# ">
+"4601
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 4601: __asm("SSPCON2 equ 0FC5h");
+[; <" SSPCON2 equ 0FC5h ;# ">
+"4663
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 4663: __asm("SSPCON1 equ 0FC6h");
+[; <" SSPCON1 equ 0FC6h ;# ">
+"4733
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 4733: __asm("SSPSTAT equ 0FC7h");
+[; <" SSPSTAT equ 0FC7h ;# ">
+"4954
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 4954: __asm("SSPADD equ 0FC8h");
+[; <" SSPADD equ 0FC8h ;# ">
+"4961
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 4961: __asm("SSPBUF equ 0FC9h");
+[; <" SSPBUF equ 0FC9h ;# ">
+"4968
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 4968: __asm("T2CON equ 0FCAh");
+[; <" T2CON equ 0FCAh ;# ">
+"5039
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5039: __asm("PR2 equ 0FCBh");
+[; <" PR2 equ 0FCBh ;# ">
+"5044
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5044: __asm("MEMCON equ 0FCBh");
+[; <" MEMCON equ 0FCBh ;# ">
+"5149
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5149: __asm("TMR2 equ 0FCCh");
+[; <" TMR2 equ 0FCCh ;# ">
+"5156
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5156: __asm("T1CON equ 0FCDh");
+[; <" T1CON equ 0FCDh ;# ">
+"5259
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5259: __asm("TMR1 equ 0FCEh");
+[; <" TMR1 equ 0FCEh ;# ">
+"5266
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5266: __asm("TMR1L equ 0FCEh");
+[; <" TMR1L equ 0FCEh ;# ">
+"5273
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5273: __asm("TMR1H equ 0FCFh");
+[; <" TMR1H equ 0FCFh ;# ">
+"5280
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5280: __asm("RCON equ 0FD0h");
+[; <" RCON equ 0FD0h ;# ">
+"5413
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5413: __asm("WDTCON equ 0FD1h");
+[; <" WDTCON equ 0FD1h ;# ">
+"5441
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5441: __asm("OSCCON2 equ 0FD2h");
+[; <" OSCCON2 equ 0FD2h ;# ">
+"5473
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5473: __asm("OSCCON equ 0FD3h");
+[; <" OSCCON equ 0FD3h ;# ">
+"5556
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5556: __asm("T0CON equ 0FD5h");
+[; <" T0CON equ 0FD5h ;# ">
+"5626
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5626: __asm("TMR0 equ 0FD6h");
+[; <" TMR0 equ 0FD6h ;# ">
+"5633
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5633: __asm("TMR0L equ 0FD6h");
+[; <" TMR0L equ 0FD6h ;# ">
+"5640
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5640: __asm("TMR0H equ 0FD7h");
+[; <" TMR0H equ 0FD7h ;# ">
+"5647
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5647: __asm("STATUS equ 0FD8h");
+[; <" STATUS equ 0FD8h ;# ">
+"5718
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5718: __asm("FSR2 equ 0FD9h");
+[; <" FSR2 equ 0FD9h ;# ">
+"5725
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5725: __asm("FSR2L equ 0FD9h");
+[; <" FSR2L equ 0FD9h ;# ">
+"5732
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5732: __asm("FSR2H equ 0FDAh");
+[; <" FSR2H equ 0FDAh ;# ">
+"5739
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5739: __asm("PLUSW2 equ 0FDBh");
+[; <" PLUSW2 equ 0FDBh ;# ">
+"5746
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5746: __asm("PREINC2 equ 0FDCh");
+[; <" PREINC2 equ 0FDCh ;# ">
+"5753
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5753: __asm("POSTDEC2 equ 0FDDh");
+[; <" POSTDEC2 equ 0FDDh ;# ">
+"5760
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5760: __asm("POSTINC2 equ 0FDEh");
+[; <" POSTINC2 equ 0FDEh ;# ">
+"5767
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5767: __asm("INDF2 equ 0FDFh");
+[; <" INDF2 equ 0FDFh ;# ">
+"5774
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5774: __asm("BSR equ 0FE0h");
+[; <" BSR equ 0FE0h ;# ">
+"5781
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5781: __asm("FSR1 equ 0FE1h");
+[; <" FSR1 equ 0FE1h ;# ">
+"5788
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5788: __asm("FSR1L equ 0FE1h");
+[; <" FSR1L equ 0FE1h ;# ">
+"5795
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5795: __asm("FSR1H equ 0FE2h");
+[; <" FSR1H equ 0FE2h ;# ">
+"5802
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5802: __asm("PLUSW1 equ 0FE3h");
+[; <" PLUSW1 equ 0FE3h ;# ">
+"5809
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5809: __asm("PREINC1 equ 0FE4h");
+[; <" PREINC1 equ 0FE4h ;# ">
+"5816
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5816: __asm("POSTDEC1 equ 0FE5h");
+[; <" POSTDEC1 equ 0FE5h ;# ">
+"5823
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5823: __asm("POSTINC1 equ 0FE6h");
+[; <" POSTINC1 equ 0FE6h ;# ">
+"5830
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5830: __asm("INDF1 equ 0FE7h");
+[; <" INDF1 equ 0FE7h ;# ">
+"5837
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5837: __asm("WREG equ 0FE8h");
+[; <" WREG equ 0FE8h ;# ">
+"5849
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5849: __asm("FSR0 equ 0FE9h");
+[; <" FSR0 equ 0FE9h ;# ">
+"5856
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5856: __asm("FSR0L equ 0FE9h");
+[; <" FSR0L equ 0FE9h ;# ">
+"5863
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5863: __asm("FSR0H equ 0FEAh");
+[; <" FSR0H equ 0FEAh ;# ">
+"5870
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5870: __asm("PLUSW0 equ 0FEBh");
+[; <" PLUSW0 equ 0FEBh ;# ">
+"5877
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5877: __asm("PREINC0 equ 0FECh");
+[; <" PREINC0 equ 0FECh ;# ">
+"5884
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5884: __asm("POSTDEC0 equ 0FEDh");
+[; <" POSTDEC0 equ 0FEDh ;# ">
+"5891
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5891: __asm("POSTINC0 equ 0FEEh");
+[; <" POSTINC0 equ 0FEEh ;# ">
+"5898
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5898: __asm("INDF0 equ 0FEFh");
+[; <" INDF0 equ 0FEFh ;# ">
+"5905
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5905: __asm("INTCON3 equ 0FF0h");
+[; <" INTCON3 equ 0FF0h ;# ">
+"5997
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 5997: __asm("INTCON2 equ 0FF1h");
+[; <" INTCON2 equ 0FF1h ;# ">
+"6091
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 6091: __asm("INTCON equ 0FF2h");
+[; <" INTCON equ 0FF2h ;# ">
+"6227
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 6227: __asm("PROD equ 0FF3h");
+[; <" PROD equ 0FF3h ;# ">
+"6234
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 6234: __asm("PRODL equ 0FF3h");
+[; <" PRODL equ 0FF3h ;# ">
+"6241
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 6241: __asm("PRODH equ 0FF4h");
+[; <" PRODH equ 0FF4h ;# ">
+"6248
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 6248: __asm("TABLAT equ 0FF5h");
+[; <" TABLAT equ 0FF5h ;# ">
+"6257
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 6257: __asm("TBLPTR equ 0FF6h");
+[; <" TBLPTR equ 0FF6h ;# ">
+"6264
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 6264: __asm("TBLPTRL equ 0FF6h");
+[; <" TBLPTRL equ 0FF6h ;# ">
+"6271
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 6271: __asm("TBLPTRH equ 0FF7h");
+[; <" TBLPTRH equ 0FF7h ;# ">
+"6278
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 6278: __asm("TBLPTRU equ 0FF8h");
+[; <" TBLPTRU equ 0FF8h ;# ">
+"6287
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 6287: __asm("PCLAT equ 0FF9h");
+[; <" PCLAT equ 0FF9h ;# ">
+"6294
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 6294: __asm("PC equ 0FF9h");
+[; <" PC equ 0FF9h ;# ">
+"6301
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 6301: __asm("PCL equ 0FF9h");
+[; <" PCL equ 0FF9h ;# ">
+"6308
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 6308: __asm("PCLATH equ 0FFAh");
+[; <" PCLATH equ 0FFAh ;# ">
+"6315
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 6315: __asm("PCLATU equ 0FFBh");
+[; <" PCLATU equ 0FFBh ;# ">
+"6322
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 6322: __asm("STKPTR equ 0FFCh");
+[; <" STKPTR equ 0FFCh ;# ">
+"6396
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 6396: __asm("TOS equ 0FFDh");
+[; <" TOS equ 0FFDh ;# ">
+"6403
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 6403: __asm("TOSL equ 0FFDh");
+[; <" TOSL equ 0FFDh ;# ">
+"6410
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 6410: __asm("TOSH equ 0FFEh");
+[; <" TOSH equ 0FFEh ;# ">
+"6417
+[; ;C:/Users/Apoca/.mchp_packs/Microchip/PIC18F-K_DFP/1.6.125/xc8\pic\include\proc\pic18f14k22.h: 6417: __asm("TOSU equ 0FFFh");
+[; <" TOSU equ 0FFFh ;# ">
+"32 ./nrf24_lib.h
+[; ;./nrf24_lib.h: 32: unsigned char ADDRESS_DATA_RXPIPE0[5] = {0xe1,0xe1,0xe1,0xe1,0xe1};
+[v _ADDRESS_DATA_RXPIPE0 `uc ~T0 @X0 -> 5 `i e ]
+[i _ADDRESS_DATA_RXPIPE0
+:U ..
+-> -> 225 `i `uc
+-> -> 225 `i `uc
+-> -> 225 `i `uc
+-> -> 225 `i `uc
+-> -> 225 `i `uc
+..
+]
+"33
+[; ;./nrf24_lib.h: 33: unsigned char ADDRESS_DATA_RXPIPE1[5] = {0xe2,0xe2,0xe2,0xe2,0xe2};
+[v _ADDRESS_DATA_RXPIPE1 `uc ~T0 @X0 -> 5 `i e ]
+[i _ADDRESS_DATA_RXPIPE1
+:U ..
+-> -> 226 `i `uc
+-> -> 226 `i `uc
+-> -> 226 `i `uc
+-> -> 226 `i `uc
+-> -> 226 `i `uc
+..
+]
+"34
+[; ;./nrf24_lib.h: 34: unsigned char ADDRESS_DATA_TXPIPE0[5] = {0xe1,0xe1,0xe1,0xe1,0xe1};
+[v _ADDRESS_DATA_TXPIPE0 `uc ~T0 @X0 -> 5 `i e ]
+[i _ADDRESS_DATA_TXPIPE0
+:U ..
+-> -> 225 `i `uc
+-> -> 225 `i `uc
+-> -> 225 `i `uc
+-> -> 225 `i `uc
+-> -> 225 `i `uc
+..
+]
+"8 nrf24_lib.c
+[; ;nrf24_lib.c: 8: void nrf24_write_register(unsigned char mnemonic_addr, unsigned char value) {
+[v _nrf24_write_register `(v ~T0 @X0 1 ef2`uc`uc ]
+{
+[e :U _nrf24_write_register ]
+[v _mnemonic_addr `uc ~T0 @X0 1 r1 ]
+[v _value `uc ~T0 @X0 1 r2 ]
+[f ]
+"9
+[; ;nrf24_lib.c: 9:     do { LATCbits.LATC4 = 0; } while(0);
+[e :U 286 ]
+{
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 285 ]
+"10
+[; ;nrf24_lib.c: 10:     if (mnemonic_addr < 0x20) {
+[e $ ! < -> _mnemonic_addr `i -> 32 `i 287  ]
+{
+"12
+[; ;nrf24_lib.c: 12:   SPI1_ExchangeByte(0x20 | (mnemonic_addr & 0x1F));
+[e ( _SPI1_ExchangeByte (1 -> | -> 32 `i & -> _mnemonic_addr `i -> 31 `i `uc ]
+"13
+[; ;nrf24_lib.c: 13:   SPI1_ExchangeByte(value);
+[e ( _SPI1_ExchangeByte (1 _value ]
+"14
+[; ;nrf24_lib.c: 14:  } else {
+}
+[e $U 288  ]
+[e :U 287 ]
+{
+"16
+[; ;nrf24_lib.c: 16:   SPI1_ExchangeByte(mnemonic_addr);
+[e ( _SPI1_ExchangeByte (1 _mnemonic_addr ]
+"17
+[; ;nrf24_lib.c: 17:   if ((mnemonic_addr != 0xE1) && (mnemonic_addr != 0xE2) && (mnemonic_addr != 0xE3) && (mnemonic_addr != 0xFF)) {
+[e $ ! && && && != -> _mnemonic_addr `i -> 225 `i != -> _mnemonic_addr `i -> 226 `i != -> _mnemonic_addr `i -> 227 `i != -> _mnemonic_addr `i -> 255 `i 289  ]
+"18
+[; ;nrf24_lib.c: 18: 
+{
+"20
+[; ;nrf24_lib.c: 20:    SPI1_ExchangeByte(value);
+[e ( _SPI1_ExchangeByte (1 _value ]
+"21
+[; ;nrf24_lib.c: 21:   }
+}
+[e :U 289 ]
+"22
+[; ;nrf24_lib.c: 22:  }
+}
+[e :U 288 ]
+"23
+[; ;nrf24_lib.c: 23:     do { LATCbits.LATC4 = 1; } while(0);
+[e :U 292 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 291 ]
+"24
+[; ;nrf24_lib.c: 24:     _delay((unsigned long)((10)*(16000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 16000000 `l `d .4000000.0 `ul ]
+"25
+[; ;nrf24_lib.c: 25: }
+[e :UE 283 ]
+}
+"27
+[; ;nrf24_lib.c: 27: unsigned char nrf24_read_register(unsigned char mnemonic_addr) {
+[v _nrf24_read_register `(uc ~T0 @X0 1 ef1`uc ]
+{
+[e :U _nrf24_read_register ]
+[v _mnemonic_addr `uc ~T0 @X0 1 r1 ]
+[f ]
+"28
+[; ;nrf24_lib.c: 28:     unsigned char byte0;
+[v _byte0 `uc ~T0 @X0 1 a ]
+"29
+[; ;nrf24_lib.c: 29:     do { LATCbits.LATC4 = 0; } while(0);
+[e :U 296 ]
+{
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 295 ]
+"30
+[; ;nrf24_lib.c: 30:     SPI1_ExchangeByte(0x00 | (mnemonic_addr & 0x1F));
+[e ( _SPI1_ExchangeByte (1 -> | -> 0 `i & -> _mnemonic_addr `i -> 31 `i `uc ]
+"31
+[; ;nrf24_lib.c: 31:     byte0 = SPI1_ExchangeByte(0xFF);
+[e = _byte0 ( _SPI1_ExchangeByte (1 -> -> 255 `i `uc ]
+"32
+[; ;nrf24_lib.c: 32:     do { LATCbits.LATC4 = 1; } while(0);
+[e :U 299 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 298 ]
+"33
+[; ;nrf24_lib.c: 33:     return byte0;
+[e ) _byte0 ]
+[e $UE 293  ]
+"34
+[; ;nrf24_lib.c: 34: }
+[e :UE 293 ]
+}
+"36
+[; ;nrf24_lib.c: 36: void nrf24_write_buff(unsigned char mnemonic_addr, unsigned char *buffer, unsigned char bytes) {
+[v _nrf24_write_buff `(v ~T0 @X0 1 ef3`uc`*uc`uc ]
+{
+[e :U _nrf24_write_buff ]
+[v _mnemonic_addr `uc ~T0 @X0 1 r1 ]
+[v _buffer `*uc ~T0 @X0 1 r2 ]
+[v _bytes `uc ~T0 @X0 1 r3 ]
+[f ]
+"37
+[; ;nrf24_lib.c: 37:     unsigned char i;
+[v _i `uc ~T0 @X0 1 a ]
+"38
+[; ;nrf24_lib.c: 38:     do { LATCbits.LATC4 = 0; } while(0);
+[e :U 303 ]
+{
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 302 ]
+"40
+[; ;nrf24_lib.c: 40:     SPI1_ExchangeByte(0x20 | mnemonic_addr);
+[e ( _SPI1_ExchangeByte (1 -> | -> 32 `i -> _mnemonic_addr `i `uc ]
+"41
+[; ;nrf24_lib.c: 41:     for (i = 0; i < bytes; i++) {
+{
+[e = _i -> -> 0 `i `uc ]
+[e $U 307  ]
+[e :U 304 ]
+{
+"42
+[; ;nrf24_lib.c: 42:         SPI1_ExchangeByte(*buffer);
+[e ( _SPI1_ExchangeByte (1 *U _buffer ]
+"43
+[; ;nrf24_lib.c: 43:         buffer++;
+[e ++ _buffer * -> -> 1 `i `x -> -> # *U _buffer `i `x ]
+"44
+[; ;nrf24_lib.c: 44:         _delay((unsigned long)((10)*(16000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 16000000 `l `d .4000000.0 `ul ]
+"45
+[; ;nrf24_lib.c: 45:     }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e :U 307 ]
+[e $ < -> _i `i -> _bytes `i 304  ]
+[e :U 305 ]
+}
+"46
+[; ;nrf24_lib.c: 46:     do { LATCbits.LATC4 = 1; } while(0);
+[e :U 310 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 309 ]
+"48
+[; ;nrf24_lib.c: 48: }
+[e :UE 300 ]
+}
+"50
+[; ;nrf24_lib.c: 50: void nrf24_read_buff(unsigned char mnemonic_addr, unsigned char *buffer, unsigned char bytes) {
+[v _nrf24_read_buff `(v ~T0 @X0 1 ef3`uc`*uc`uc ]
+{
+[e :U _nrf24_read_buff ]
+[v _mnemonic_addr `uc ~T0 @X0 1 r1 ]
+[v _buffer `*uc ~T0 @X0 1 r2 ]
+[v _bytes `uc ~T0 @X0 1 r3 ]
+[f ]
+"51
+[; ;nrf24_lib.c: 51:     unsigned char i;
+[v _i `uc ~T0 @X0 1 a ]
+"52
+[; ;nrf24_lib.c: 52:     do { LATCbits.LATC4 = 0; } while(0);
+[e :U 314 ]
+{
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 313 ]
+"53
+[; ;nrf24_lib.c: 53:     SPI1_ExchangeByte(0x00 | mnemonic_addr);
+[e ( _SPI1_ExchangeByte (1 -> | -> 0 `i -> _mnemonic_addr `i `uc ]
+"54
+[; ;nrf24_lib.c: 54:     for (i = 0; i < bytes; i++) {
+{
+[e = _i -> -> 0 `i `uc ]
+[e $U 318  ]
+[e :U 315 ]
+{
+"55
+[; ;nrf24_lib.c: 55:         *buffer = SPI1_ExchangeByte(0xFF);
+[e = *U _buffer ( _SPI1_ExchangeByte (1 -> -> 255 `i `uc ]
+"56
+[; ;nrf24_lib.c: 56:         buffer++;
+[e ++ _buffer * -> -> 1 `i `x -> -> # *U _buffer `i `x ]
+"57
+[; ;nrf24_lib.c: 57:     }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e :U 318 ]
+[e $ < -> _i `i -> _bytes `i 315  ]
+[e :U 316 ]
+}
+"58
+[; ;nrf24_lib.c: 58:     *buffer = (unsigned char )(0);
+[e = *U _buffer -> -> 0 `i `uc ]
+"59
+[; ;nrf24_lib.c: 59:     do { LATCbits.LATC4 = 1; } while(0);
+[e :U 321 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 320 ]
+"60
+[; ;nrf24_lib.c: 60: }
+[e :UE 311 ]
+}
+"62
+[; ;nrf24_lib.c: 62: NRF24_INIT_STATUS nrf24_rf_init(unsigned char mode, unsigned char rf_channel) {
+[v _nrf24_rf_init `(E2474 ~T0 @X0 1 ef2`uc`uc ]
+{
+[e :U _nrf24_rf_init ]
+[v _mode `uc ~T0 @X0 1 r1 ]
+[v _rf_channel `uc ~T0 @X0 1 r2 ]
+[f ]
+"63
+[; ;nrf24_lib.c: 63:     NRF24_INIT_STATUS stat = NRF24_INIT_FAILED;
+[v _stat `E2474 ~T0 @X0 1 a ]
+[e = _stat . `E2474 1 ]
+"64
+[; ;nrf24_lib.c: 64:     SPI1_Open(SPI1_DEFAULT);
+[e ( _SPI1_Open (1 . `E2364 1 ]
+"65
+[; ;nrf24_lib.c: 65:     do { TRISCbits.TRISC4 = 0; } while(0);
+[e :U 325 ]
+{
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 324 ]
+"66
+[; ;nrf24_lib.c: 66:     do { TRISCbits.TRISC5 = 0; } while(0);
+[e :U 328 ]
+{
+[e = . . _TRISCbits 0 5 -> -> 0 `i `uc ]
+}
+[e :U 327 ]
+"67
+[; ;nrf24_lib.c: 67:     do { LATCbits.LATC4 = 1; } while(0);
+[e :U 331 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 330 ]
+"69
+[; ;nrf24_lib.c: 69:     do { LATCbits.LATC5 = 1; } while(0);
+[e :U 334 ]
+{
+[e = . . _LATCbits 0 5 -> -> 1 `i `uc ]
+}
+[e :U 333 ]
+"70
+[; ;nrf24_lib.c: 70:     _delay((unsigned long)((100)*(16000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 16000000 `l `d .4000000.0 `ul ]
+"71
+[; ;nrf24_lib.c: 71:     do { LATCbits.LATC5 = 0; } while(0);
+[e :U 337 ]
+{
+[e = . . _LATCbits 0 5 -> -> 0 `i `uc ]
+}
+[e :U 336 ]
+"95
+[; ;nrf24_lib.c: 95:     nrf24_write_register(0x00, 0x0B);
+[e ( _nrf24_write_register (2 , -> -> 0 `i `uc -> -> 11 `i `uc ]
+"97
+[; ;nrf24_lib.c: 97:     nrf24_write_register(0x01, 0x00);
+[e ( _nrf24_write_register (2 , -> -> 1 `i `uc -> -> 0 `i `uc ]
+"98
+[; ;nrf24_lib.c: 98:     nrf24_write_register(0x02, 0x01);
+[e ( _nrf24_write_register (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
+"99
+[; ;nrf24_lib.c: 99:     nrf24_write_register(0x03, 0x03);
+[e ( _nrf24_write_register (2 , -> -> 3 `i `uc -> -> 3 `i `uc ]
+"104
+[; ;nrf24_lib.c: 104:     nrf24_write_buff(0x0A , ADDRESS_DATA_RXPIPE0, 5);
+[e ( _nrf24_write_buff (3 , , -> -> 10 `i `uc &U _ADDRESS_DATA_RXPIPE0 -> -> 5 `i `uc ]
+"112
+[; ;nrf24_lib.c: 112:     nrf24_write_buff(0x10 , ADDRESS_DATA_TXPIPE0, 5);
+[e ( _nrf24_write_buff (3 , , -> -> 16 `i `uc &U _ADDRESS_DATA_TXPIPE0 -> -> 5 `i `uc ]
+"114
+[; ;nrf24_lib.c: 114:     nrf24_write_register(0x04, 0x00);
+[e ( _nrf24_write_register (2 , -> -> 4 `i `uc -> -> 0 `i `uc ]
+"115
+[; ;nrf24_lib.c: 115:     nrf24_set_channel_frq(rf_channel);
+[e ( _nrf24_set_channel_frq (1 _rf_channel ]
+"128
+[; ;nrf24_lib.c: 128:     nrf24_write_register(0x06, 0x07);
+[e ( _nrf24_write_register (2 , -> -> 6 `i `uc -> -> 7 `i `uc ]
+"131
+[; ;nrf24_lib.c: 131:     nrf24_write_register(0x11, 32);
+[e ( _nrf24_write_register (2 , -> -> 17 `i `uc -> -> 32 `i `uc ]
+"133
+[; ;nrf24_lib.c: 133:     _delay((unsigned long)((10)*(16000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 16000000 `l `d .4000000.0 `ul ]
+"134
+[; ;nrf24_lib.c: 134:     nrf24_set_rf_mode(mode);
+[e ( _nrf24_set_rf_mode (1 -> _mode `E2478 ]
+"135
+[; ;nrf24_lib.c: 135:     _delay((unsigned long)((10)*(16000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 16000000 `l `d .4000000.0 `ul ]
+"137
+[; ;nrf24_lib.c: 137:     printf("nrf24_set_rf_mode(mode)\r\n");
+[e ( _printf :s 1C ]
+"138
+[; ;nrf24_lib.c: 138:     nrf24_printf_rf_config ();
+[e ( _nrf24_printf_rf_config ..  ]
+"140
+[; ;nrf24_lib.c: 140:     if ((nrf24_read_register(0x00) & 0x08) != 0){
+[e $ ! != & -> ( _nrf24_read_register (1 -> -> 0 `i `uc `i -> 8 `i -> 0 `i 338  ]
+{
+"141
+[; ;nrf24_lib.c: 141:       printf("rfCardPresent = TRUE\r\n");
+[e ( _printf :s 2C ]
+"142
+[; ;nrf24_lib.c: 142:       stat = NRF24_INIT_OK;
+[e = _stat . `E2474 0 ]
+"143
+[; ;nrf24_lib.c: 143:     }
+}
+[e :U 338 ]
+"144
+[; ;nrf24_lib.c: 144:     _delay((unsigned long)((100)*(16000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 16000000 `l `d .4000000.0 `ul ]
+"145
+[; ;nrf24_lib.c: 145:     return stat;
+[e ) _stat ]
+[e $UE 322  ]
+"146
+[; ;nrf24_lib.c: 146: }
+[e :UE 322 ]
+}
+"148
+[; ;nrf24_lib.c: 148: void nrf24_set_rf_mode(NRF24_OPERATION_MODE mode) {
+[v _nrf24_set_rf_mode `(v ~T0 @X0 1 ef1`E2478 ]
+{
+[e :U _nrf24_set_rf_mode ]
+[v _mode `E2478 ~T0 @X0 1 r1 ]
+[f ]
+"149
+[; ;nrf24_lib.c: 149:     switch (mode) {
+[e $U 341  ]
+{
+"150
+[; ;nrf24_lib.c: 150:         case RX_MODE:
+[e :U 342 ]
+"152
+[; ;nrf24_lib.c: 152:             nrf24_write_register(0x00, 0x0B);
+[e ( _nrf24_write_register (2 , -> -> 0 `i `uc -> -> 11 `i `uc ]
+"153
+[; ;nrf24_lib.c: 153:             do { LATCbits.LATC5 = 1; } while(0);
+[e :U 345 ]
+{
+[e = . . _LATCbits 0 5 -> -> 1 `i `uc ]
+}
+[e :U 344 ]
+"154
+[; ;nrf24_lib.c: 154:             break;
+[e $U 340  ]
+"155
+[; ;nrf24_lib.c: 155:         case TX_MODE:
+[e :U 346 ]
+"156
+[; ;nrf24_lib.c: 156:             nrf24_write_register(0x00, 0x0A);
+[e ( _nrf24_write_register (2 , -> -> 0 `i `uc -> -> 10 `i `uc ]
+"157
+[; ;nrf24_lib.c: 157:             do { LATCbits.LATC5 = 0; } while(0);
+[e :U 349 ]
+{
+[e = . . _LATCbits 0 5 -> -> 0 `i `uc ]
+}
+[e :U 348 ]
+"158
+[; ;nrf24_lib.c: 158:             break;
+[e $U 340  ]
+"159
+[; ;nrf24_lib.c: 159:     }
+}
+[e $U 340  ]
+[e :U 341 ]
+[e [\ -> _mode `ui , $ -> . `E2478 0 `ui 342
+ , $ -> . `E2478 1 `ui 346
+ 340 ]
+[e :U 340 ]
+"160
+[; ;nrf24_lib.c: 160: }
+[e :UE 339 ]
+}
+"162
+[; ;nrf24_lib.c: 162: void nrf24_send_rf_data(unsigned char *buffer) {
+[v _nrf24_send_rf_data `(v ~T0 @X0 1 ef1`*uc ]
+{
+[e :U _nrf24_send_rf_data ]
+[v _buffer `*uc ~T0 @X0 1 r1 ]
+[f ]
+"163
+[; ;nrf24_lib.c: 163:     nrf24_set_rf_mode(TX_MODE);
+[e ( _nrf24_set_rf_mode (1 . `E2478 1 ]
+"164
+[; ;nrf24_lib.c: 164:     nrf24_write_buff(0xA0, buffer, 32);
+[e ( _nrf24_write_buff (3 , , -> -> 160 `i `uc _buffer -> -> 32 `i `uc ]
+"165
+[; ;nrf24_lib.c: 165:     do { LATCbits.LATC5 = 1; } while(0);
+[e :U 353 ]
+{
+[e = . . _LATCbits 0 5 -> -> 1 `i `uc ]
+}
+[e :U 352 ]
+"166
+[; ;nrf24_lib.c: 166:     _delay((unsigned long)((1)*(16000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"167
+[; ;nrf24_lib.c: 167:     do { LATCbits.LATC5 = 0; } while(0);
+[e :U 356 ]
+{
+[e = . . _LATCbits 0 5 -> -> 0 `i `uc ]
+}
+[e :U 355 ]
+"168
+[; ;nrf24_lib.c: 168: }
+[e :UE 350 ]
+}
+"170
+[; ;nrf24_lib.c: 170: unsigned char nrf24_is_rf_data_available(void) {
+[v _nrf24_is_rf_data_available `(uc ~T0 @X0 1 ef ]
+{
+[e :U _nrf24_is_rf_data_available ]
+[f ]
+"171
+[; ;nrf24_lib.c: 171:     if ((nrf24_read_register(0x07) & 0x40) == 0x40) {
+[e $ ! == & -> ( _nrf24_read_register (1 -> -> 7 `i `uc `i -> 64 `i -> 64 `i 358  ]
+{
+"172
+[; ;nrf24_lib.c: 172:         return 0;
+[e ) -> -> 0 `i `uc ]
+[e $UE 357  ]
+"173
+[; ;nrf24_lib.c: 173:     }
+}
+[e :U 358 ]
+"174
+[; ;nrf24_lib.c: 174:     return 1;
+[e ) -> -> 1 `i `uc ]
+[e $UE 357  ]
+"175
+[; ;nrf24_lib.c: 175: }
+[e :UE 357 ]
+}
+"177
+[; ;nrf24_lib.c: 177: void nrf24_read_rf_data(unsigned char *buffer) {
+[v _nrf24_read_rf_data `(v ~T0 @X0 1 ef1`*uc ]
+{
+[e :U _nrf24_read_rf_data ]
+[v _buffer `*uc ~T0 @X0 1 r1 ]
+[f ]
+"178
+[; ;nrf24_lib.c: 178:     nrf24_read_buff(0x61, buffer, 32);
+[e ( _nrf24_read_buff (3 , , -> -> 97 `i `uc _buffer -> -> 32 `i `uc ]
+"179
+[; ;nrf24_lib.c: 179:     nrf24_write_register(0x07, 0x70);
+[e ( _nrf24_write_register (2 , -> -> 7 `i `uc -> -> 112 `i `uc ]
+"180
+[; ;nrf24_lib.c: 180:     nrf24_flush_tx_rx();
+[e ( _nrf24_flush_tx_rx ..  ]
+"181
+[; ;nrf24_lib.c: 181: }
+[e :UE 359 ]
+}
+"183
+[; ;nrf24_lib.c: 183: void nrf24_set_channel_frq(unsigned char rf_channel) {
+[v _nrf24_set_channel_frq `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _nrf24_set_channel_frq ]
+[v _rf_channel `uc ~T0 @X0 1 r1 ]
+[f ]
+"184
+[; ;nrf24_lib.c: 184:     nrf24_write_register(0x05, rf_channel);
+[e ( _nrf24_write_register (2 , -> -> 5 `i `uc _rf_channel ]
+"185
+[; ;nrf24_lib.c: 185: }
+[e :UE 360 ]
+}
+"187
+[; ;nrf24_lib.c: 187: unsigned char nrf24_get_channel_frq(void) {
+[v _nrf24_get_channel_frq `(uc ~T0 @X0 1 ef ]
+{
+[e :U _nrf24_get_channel_frq ]
+[f ]
+"188
+[; ;nrf24_lib.c: 188:     return nrf24_read_register(0x05);
+[e ) ( _nrf24_read_register (1 -> -> 5 `i `uc ]
+[e $UE 361  ]
+"189
+[; ;nrf24_lib.c: 189: }
+[e :UE 361 ]
+}
+"191
+[; ;nrf24_lib.c: 191: void nrf24_standby_I(void) {
+[v _nrf24_standby_I `(v ~T0 @X0 1 ef ]
+{
+[e :U _nrf24_standby_I ]
+[f ]
+"192
+[; ;nrf24_lib.c: 192:     nrf24_write_register(0x00, 0x0A);
+[e ( _nrf24_write_register (2 , -> -> 0 `i `uc -> -> 10 `i `uc ]
+"193
+[; ;nrf24_lib.c: 193:     _delay((unsigned long)((10)*(16000000/4000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"194
+[; ;nrf24_lib.c: 194: }
+[e :UE 362 ]
+}
+"196
+[; ;nrf24_lib.c: 196: void nrf24_flush_tx_rx(void) {
+[v _nrf24_flush_tx_rx `(v ~T0 @X0 1 ef ]
+{
+[e :U _nrf24_flush_tx_rx ]
+[f ]
+"197
+[; ;nrf24_lib.c: 197:     do { LATCbits.LATC4 = 0; } while(0);
+[e :U 366 ]
+{
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 365 ]
+"198
+[; ;nrf24_lib.c: 198:     nrf24_write_register(0x07, 0x70);
+[e ( _nrf24_write_register (2 , -> -> 7 `i `uc -> -> 112 `i `uc ]
+"199
+[; ;nrf24_lib.c: 199:     _delay((unsigned long)((10)*(16000000/4000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"200
+[; ;nrf24_lib.c: 200:     do { LATCbits.LATC4 = 1; } while(0);
+[e :U 369 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 368 ]
+"202
+[; ;nrf24_lib.c: 202:     do { LATCbits.LATC4 = 0; } while(0);
+[e :U 372 ]
+{
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 371 ]
+"203
+[; ;nrf24_lib.c: 203:     SPI1_ExchangeByte(0xE1);
+[e ( _SPI1_ExchangeByte (1 -> -> 225 `i `uc ]
+"204
+[; ;nrf24_lib.c: 204:     _delay((unsigned long)((10)*(16000000/4000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"205
+[; ;nrf24_lib.c: 205:     do { LATCbits.LATC4 = 1; } while(0);
+[e :U 375 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 374 ]
+"207
+[; ;nrf24_lib.c: 207:     do { LATCbits.LATC4 = 0; } while(0);
+[e :U 378 ]
+{
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+}
+[e :U 377 ]
+"208
+[; ;nrf24_lib.c: 208:     SPI1_ExchangeByte(0xE2);
+[e ( _SPI1_ExchangeByte (1 -> -> 226 `i `uc ]
+"209
+[; ;nrf24_lib.c: 209:     _delay((unsigned long)((10)*(16000000/4000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"210
+[; ;nrf24_lib.c: 210:     do { LATCbits.LATC4 = 1; } while(0);
+[e :U 381 ]
+{
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+}
+[e :U 380 ]
+"211
+[; ;nrf24_lib.c: 211: }
+[e :UE 363 ]
+}
+"214
+[; ;nrf24_lib.c: 214: void nrf24_printf_rf_config(void) {
+[v _nrf24_printf_rf_config `(v ~T0 @X0 1 ef ]
+{
+[e :U _nrf24_printf_rf_config ]
+[f ]
+"215
+[; ;nrf24_lib.c: 215:  uint8_t i,j;
+[v _i `uc ~T0 @X0 1 a ]
+[v _j `uc ~T0 @X0 1 a ]
+"216
+[; ;nrf24_lib.c: 216:  uint8_t aw;
+[v _aw `uc ~T0 @X0 1 a ]
+"217
+[; ;nrf24_lib.c: 217:  uint8_t buf[5];
+[v _buf `uc ~T0 @X0 -> 5 `i a ]
+"221
+[; ;nrf24_lib.c: 221:  i = nrf24_read_register(0x00);
+[e = _i ( _nrf24_read_register (1 -> -> 0 `i `uc ]
+"222
+[; ;nrf24_lib.c: 222:  printf("[0x%02X] 0x%02X MASK:%03X CRC:%02X PWR:%s MODE:P%s\r\n",
+[e ( _printf , , , , , , (. :s 3C -> 0 `i -> _i `i >> -> _i `i -> 4 `i >> & -> _i `i -> 12 `i -> 2 `i ? != & -> _i `i -> 2 `i -> 0 `i : :s 4C :s 5C ? != & -> _i `i -> 1 `i -> 0 `i : :s 6C :s 7C ]
+"233
+[; ;nrf24_lib.c: 233:  i = nrf24_read_register(0x01);
+[e = _i ( _nrf24_read_register (1 -> -> 1 `i `uc ]
+"234
+[; ;nrf24_lib.c: 234:  printf("[0x%02X] 0x%02X ENAA: ",0x01,i);
+[e ( _printf , , (. :s 8C -> 1 `i -> _i `i ]
+"235
+[; ;nrf24_lib.c: 235:  for (j = 0; j < 6; j++) {
+{
+[e = _j -> -> 0 `i `uc ]
+[e $ < -> _j `i -> 6 `i 383  ]
+[e $U 384  ]
+[e :U 383 ]
+{
+"236
+[; ;nrf24_lib.c: 236:   printf("[P%1u%s]%s",j,
+[e ( _printf , , , (. :s 9C -> _j `i ? != & -> _i `i << -> 1 `i -> _j `i -> 0 `i : :s 10C :s 11C ? == -> _j `i -> 5 `i : :s 12C :s 13C ]
+"240
+[; ;nrf24_lib.c: 240:  }
+}
+[e ++ _j -> -> 1 `i `uc ]
+[e $ < -> _j `i -> 6 `i 383  ]
+[e :U 384 ]
+}
+"242
+[; ;nrf24_lib.c: 242:  i = nrf24_read_register(0x02);
+[e = _i ( _nrf24_read_register (1 -> -> 2 `i `uc ]
+"243
+[; ;nrf24_lib.c: 243:  printf("[0x%02X] 0x%02X EN_RXADDR: ",0x02,i);
+[e ( _printf , , (. :s 14C -> 2 `i -> _i `i ]
+"244
+[; ;nrf24_lib.c: 244:  for (j = 0; j < 6; j++) {
+{
+[e = _j -> -> 0 `i `uc ]
+[e $ < -> _j `i -> 6 `i 386  ]
+[e $U 387  ]
+[e :U 386 ]
+{
+"245
+[; ;nrf24_lib.c: 245:   printf("[P%1u%s]%s",j,
+[e ( _printf , , , (. :s 15C -> _j `i ? != & -> _i `i << -> 1 `i -> _j `i -> 0 `i : :s 16C :s 17C ? == -> _j `i -> 5 `i : :s 18C :s 19C ]
+"249
+[; ;nrf24_lib.c: 249:  }
+}
+[e ++ _j -> -> 1 `i `uc ]
+[e $ < -> _j `i -> 6 `i 386  ]
+[e :U 387 ]
+}
+"251
+[; ;nrf24_lib.c: 251:  i = nrf24_read_register(0x03);
+[e = _i ( _nrf24_read_register (1 -> -> 3 `i `uc ]
+"252
+[; ;nrf24_lib.c: 252:  aw = (i & 0x03) + 2;
+[e = _aw -> + & -> _i `i -> 3 `i -> 2 `i `uc ]
+"254
+[; ;nrf24_lib.c: 254:  printf("[0x%02X] 0x%02X EN_RXADDR=%06b (address width = %u)\r\n",0x03,i,i & 0x03,aw);
+[e ( _printf , , , , (. :s 20C -> 3 `i -> _i `i & -> _i `i -> 3 `i -> _aw `i ]
+"256
+[; ;nrf24_lib.c: 256:  i = nrf24_read_register(0x04);
+[e = _i ( _nrf24_read_register (1 -> -> 4 `i `uc ]
+"257
+[; ;nrf24_lib.c: 257:  printf("[0x%02X] 0x%02X ARD=%X ARC=%X (retr.delay=%uus, count=%u)\r\n",
+[e ( _printf , , , , , , (. :s 21C -> 4 `i -> _i `i >> -> _i `i -> 4 `i & -> _i `i -> 15 `i + * >> -> _i `i -> 4 `i -> 250 `i -> 250 `i & -> _i `i -> 15 `i ]
+"266
+[; ;nrf24_lib.c: 266:  i = nrf24_read_register(0x05);
+[e = _i ( _nrf24_read_register (1 -> -> 5 `i `uc ]
+"267
+[; ;nrf24_lib.c: 267:  printf("[0x%02X] 0x%02X (%.3uGHz)\r\n",0x05,i,2400 + i);
+[e ( _printf , , , (. :s 22C -> 5 `i -> _i `i + -> 2400 `i -> _i `i ]
+"269
+[; ;nrf24_lib.c: 269:  i = nrf24_read_register(0x06);
+[e = _i ( _nrf24_read_register (1 -> -> 6 `i `uc ]
+"270
+[; ;nrf24_lib.c: 270:  printf("[0x%02X] 0x%02X CONT_WAVE:%s PLL_LOCK:%s DataRate=",
+[e ( _printf , , , , (. :s 23C -> 6 `i -> _i `i ? != & -> _i `i -> 128 `i -> 0 `i : :s 24C :s 25C ? != & -> _i `i -> 128 `i -> 0 `i : :s 26C :s 27C ]
+"276
+[; ;nrf24_lib.c: 276:  switch ((i & 0x28) >> 3) {
+[e $U 390  ]
+{
+"277
+[; ;nrf24_lib.c: 277:   case 0x00:
+[e :U 391 ]
+"278
+[; ;nrf24_lib.c: 278:    printf("1Mbps ");
+[e ( _printf :s 28C ]
+"279
+[; ;nrf24_lib.c: 279:    break;
+[e $U 389  ]
+"280
+[; ;nrf24_lib.c: 280:   case 0x01:
+[e :U 392 ]
+"281
+[; ;nrf24_lib.c: 281:    printf("2Mbps ");
+[e ( _printf :s 29C ]
+"282
+[; ;nrf24_lib.c: 282:    break;
+[e $U 389  ]
+"283
+[; ;nrf24_lib.c: 283:   case 0x04:
+[e :U 393 ]
+"284
+[; ;nrf24_lib.c: 284:    printf("250kbps ");
+[e ( _printf :s 30C ]
+"285
+[; ;nrf24_lib.c: 285:    break;
+[e $U 389  ]
+"286
+[; ;nrf24_lib.c: 286:   default:
+[e :U 394 ]
+"287
+[; ;nrf24_lib.c: 287:    printf("??? ");
+[e ( _printf :s 31C ]
+"288
+[; ;nrf24_lib.c: 288:    break;
+[e $U 389  ]
+"289
+[; ;nrf24_lib.c: 289:  }
+}
+[e $U 389  ]
+[e :U 390 ]
+[e [\ >> & -> _i `i -> 40 `i -> 3 `i , $ -> 0 `i 391
+ , $ -> 1 `i 392
+ , $ -> 4 `i 393
+ 394 ]
+[e :U 389 ]
+"290
+[; ;nrf24_lib.c: 290:  printf("RF_PWR=");
+[e ( _printf :s 32C ]
+"291
+[; ;nrf24_lib.c: 291:  switch ((i & 0x06) >> 1) {
+[e $U 396  ]
+{
+"292
+[; ;nrf24_lib.c: 292:   case 0x00:
+[e :U 397 ]
+"293
+[; ;nrf24_lib.c: 293:    printf("-18");
+[e ( _printf :s 33C ]
+"294
+[; ;nrf24_lib.c: 294:    break;
+[e $U 395  ]
+"295
+[; ;nrf24_lib.c: 295:   case 0x01:
+[e :U 398 ]
+"296
+[; ;nrf24_lib.c: 296:    printf("-12");
+[e ( _printf :s 34C ]
+"297
+[; ;nrf24_lib.c: 297:    break;
+[e $U 395  ]
+"298
+[; ;nrf24_lib.c: 298:   case 0x02:
+[e :U 399 ]
+"299
+[; ;nrf24_lib.c: 299:    printf("-6");
+[e ( _printf :s 35C ]
+"300
+[; ;nrf24_lib.c: 300:    break;
+[e $U 395  ]
+"301
+[; ;nrf24_lib.c: 301:   case 0x03:
+[e :U 400 ]
+"302
+[; ;nrf24_lib.c: 302:    printf("0");
+[e ( _printf :s 36C ]
+"303
+[; ;nrf24_lib.c: 303:    break;
+[e $U 395  ]
+"304
+[; ;nrf24_lib.c: 304:   default:
+[e :U 401 ]
+"305
+[; ;nrf24_lib.c: 305:    printf("???");
+[e ( _printf :s 37C ]
+"306
+[; ;nrf24_lib.c: 306:    break;
+[e $U 395  ]
+"307
+[; ;nrf24_lib.c: 307:  }
+}
+[e $U 395  ]
+[e :U 396 ]
+[e [\ >> & -> _i `i -> 6 `i -> 1 `i , $ -> 0 `i 397
+ , $ -> 1 `i 398
+ , $ -> 2 `i 399
+ , $ -> 3 `i 400
+ 401 ]
+[e :U 395 ]
+"308
+[; ;nrf24_lib.c: 308:  printf("dBm\r\n");
+[e ( _printf :s 38C ]
+"312
+[; ;nrf24_lib.c: 312:  i = nrf24_read_register(0x07);
+[e = _i ( _nrf24_read_register (1 -> -> 7 `i `uc ]
+"313
+[; ;nrf24_lib.c: 313:  printf("[0x%02X] 0x%02X IRQ:%03X RX_PIPE:%u TX_FULL:%s\r\n",
+[e ( _printf , , , , , (. :s 39C -> 7 `i -> _i `i >> & -> _i `i -> 112 `i -> 4 `i >> & -> _i `i -> 14 `i -> 1 `i ? != & -> _i `i -> 1 `i -> 0 `i : :s 40C :s 41C ]
+"321
+[; ;nrf24_lib.c: 321:  i = nrf24_read_register(0x08);
+[e = _i ( _nrf24_read_register (1 -> -> 8 `i `uc ]
+"322
+[; ;nrf24_lib.c: 322:  printf("[0x%02X] 0x%02X PLOS_CNT=%u ARC_CNT=%u\r\n",0x08,i,i >> 4,i & 0x0F);
+[e ( _printf , , , , (. :s 42C -> 8 `i -> _i `i >> -> _i `i -> 4 `i & -> _i `i -> 15 `i ]
+"325
+[; ;nrf24_lib.c: 325:  i = nrf24_read_register(0x09);
+[e = _i ( _nrf24_read_register (1 -> -> 9 `i `uc ]
+"326
+[; ;nrf24_lib.c: 326:  printf("[0x%02X] 0x%02X RPD=%s\r\n",0x09,i,(i & 0x01) ? "YES" : "NO");
+[e ( _printf , , , (. :s 43C -> 9 `i -> _i `i ? != & -> _i `i -> 1 `i -> 0 `i : :s 44C :s 45C ]
+"329
+[; ;nrf24_lib.c: 329:  nrf24_read_buff(0x0A,buf,aw);
+[e ( _nrf24_read_buff (3 , , -> -> 10 `i `uc &U _buf _aw ]
+"330
+[; ;nrf24_lib.c: 330:  printf("[0x%02X] RX_ADDR_P0 \"",0x0A);
+[e ( _printf , (. :s 46C -> 10 `i ]
+"331
+[; ;nrf24_lib.c: 331:  for (i = 0; i < aw; i++) printf("%x",buf[i]);
+{
+[e = _i -> -> 0 `i `uc ]
+[e $U 405  ]
+[e :U 402 ]
+[e ( _printf , (. :s 47C -> *U + &U _buf * -> _i `ux -> -> # *U &U _buf `ui `ux `i ]
+[e ++ _i -> -> 1 `i `uc ]
+[e :U 405 ]
+[e $ < -> _i `i -> _aw `i 402  ]
+[e :U 403 ]
+}
+"332
+[; ;nrf24_lib.c: 332:  printf("\"\r\n");
+[e ( _printf :s 48C ]
+"335
+[; ;nrf24_lib.c: 335:  nrf24_read_buff(0x0B,buf,aw);
+[e ( _nrf24_read_buff (3 , , -> -> 11 `i `uc &U _buf _aw ]
+"336
+[; ;nrf24_lib.c: 336:  printf("[0x%02X] RX_ADDR_P1 \"",0x0B);
+[e ( _printf , (. :s 49C -> 11 `i ]
+"337
+[; ;nrf24_lib.c: 337:  for (i = 0; i < aw; i++) printf("%x",buf[i]);
+{
+[e = _i -> -> 0 `i `uc ]
+[e $U 409  ]
+[e :U 406 ]
+[e ( _printf , (. :s 50C -> *U + &U _buf * -> _i `ux -> -> # *U &U _buf `ui `ux `i ]
+[e ++ _i -> -> 1 `i `uc ]
+[e :U 409 ]
+[e $ < -> _i `i -> _aw `i 406  ]
+[e :U 407 ]
+}
+"338
+[; ;nrf24_lib.c: 338:  printf("\"\r\n");
+[e ( _printf :s 51C ]
+"341
+[; ;nrf24_lib.c: 341:  printf("[0x%02X] RX_ADDR_P2 \"",0x0C);
+[e ( _printf , (. :s 52C -> 12 `i ]
+"342
+[; ;nrf24_lib.c: 342:  for (i = 0; i < aw - 1; i++) printf("%x",buf[i]);
+{
+[e = _i -> -> 0 `i `uc ]
+[e $U 413  ]
+[e :U 410 ]
+[e ( _printf , (. :s 53C -> *U + &U _buf * -> _i `ux -> -> # *U &U _buf `ui `ux `i ]
+[e ++ _i -> -> 1 `i `uc ]
+[e :U 413 ]
+[e $ < -> _i `i - -> _aw `i -> 1 `i 410  ]
+[e :U 411 ]
+}
+"343
+[; ;nrf24_lib.c: 343:  i = nrf24_read_register(0x0C);
+[e = _i ( _nrf24_read_register (1 -> -> 12 `i `uc ]
+"344
+[; ;nrf24_lib.c: 344:  printf("%h\"\r\n",i);
+[e ( _printf , (. :s 54C -> _i `i ]
+"347
+[; ;nrf24_lib.c: 347:  printf("[0x%02X] RX_ADDR_P3 \"",0x0D);
+[e ( _printf , (. :s 55C -> 13 `i ]
+"348
+[; ;nrf24_lib.c: 348:  for (i = 0; i < aw - 1; i++) printf("%x",buf[i]);
+{
+[e = _i -> -> 0 `i `uc ]
+[e $U 417  ]
+[e :U 414 ]
+[e ( _printf , (. :s 56C -> *U + &U _buf * -> _i `ux -> -> # *U &U _buf `ui `ux `i ]
+[e ++ _i -> -> 1 `i `uc ]
+[e :U 417 ]
+[e $ < -> _i `i - -> _aw `i -> 1 `i 414  ]
+[e :U 415 ]
+}
+"349
+[; ;nrf24_lib.c: 349:  i = nrf24_read_register(0x0D);
+[e = _i ( _nrf24_read_register (1 -> -> 13 `i `uc ]
+"350
+[; ;nrf24_lib.c: 350:  printf("%h\"\r\n",i);
+[e ( _printf , (. :s 57C -> _i `i ]
+"353
+[; ;nrf24_lib.c: 353:  printf("[0x%02X] RX_ADDR_P4 \"",0x0E);
+[e ( _printf , (. :s 58C -> 14 `i ]
+"354
+[; ;nrf24_lib.c: 354:  for (i = 0; i < aw - 1; i++) printf("%x",buf[i]);
+{
+[e = _i -> -> 0 `i `uc ]
+[e $U 421  ]
+[e :U 418 ]
+[e ( _printf , (. :s 59C -> *U + &U _buf * -> _i `ux -> -> # *U &U _buf `ui `ux `i ]
+[e ++ _i -> -> 1 `i `uc ]
+[e :U 421 ]
+[e $ < -> _i `i - -> _aw `i -> 1 `i 418  ]
+[e :U 419 ]
+}
+"355
+[; ;nrf24_lib.c: 355:  i = nrf24_read_register(0x0E);
+[e = _i ( _nrf24_read_register (1 -> -> 14 `i `uc ]
+"356
+[; ;nrf24_lib.c: 356:  printf("%x\"\r\n",i);
+[e ( _printf , (. :s 60C -> _i `i ]
+"359
+[; ;nrf24_lib.c: 359:  printf("[0x%02X] RX_ADDR_P5 \"",0x0F);
+[e ( _printf , (. :s 61C -> 15 `i ]
+"360
+[; ;nrf24_lib.c: 360:  for (i = 0; i < aw - 1; i++) printf("%x",buf[i]);
+{
+[e = _i -> -> 0 `i `uc ]
+[e $U 425  ]
+[e :U 422 ]
+[e ( _printf , (. :s 62C -> *U + &U _buf * -> _i `ux -> -> # *U &U _buf `ui `ux `i ]
+[e ++ _i -> -> 1 `i `uc ]
+[e :U 425 ]
+[e $ < -> _i `i - -> _aw `i -> 1 `i 422  ]
+[e :U 423 ]
+}
+"361
+[; ;nrf24_lib.c: 361:  i = nrf24_read_register(0x0F);
+[e = _i ( _nrf24_read_register (1 -> -> 15 `i `uc ]
+"362
+[; ;nrf24_lib.c: 362:  printf("%x\"\r\n",i);
+[e ( _printf , (. :s 63C -> _i `i ]
+"365
+[; ;nrf24_lib.c: 365:  nrf24_read_buff(0x10,buf,aw);
+[e ( _nrf24_read_buff (3 , , -> -> 16 `i `uc &U _buf _aw ]
+"366
+[; ;nrf24_lib.c: 366:  printf("[0x%02X] TX_ADDR \"",0x10);
+[e ( _printf , (. :s 64C -> 16 `i ]
+"367
+[; ;nrf24_lib.c: 367:  for (i = 0; i < aw; i++) {printf("%x",buf[i]); }
+{
+[e = _i -> -> 0 `i `uc ]
+[e $U 429  ]
+[e :U 426 ]
+{
+[e ( _printf , (. :s 65C -> *U + &U _buf * -> _i `ux -> -> # *U &U _buf `ui `ux `i ]
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e :U 429 ]
+[e $ < -> _i `i -> _aw `i 426  ]
+[e :U 427 ]
+}
+"368
+[; ;nrf24_lib.c: 368:  printf("\"\r\n");
+[e ( _printf :s 66C ]
+"371
+[; ;nrf24_lib.c: 371:  i = nrf24_read_register(0x11);
+[e = _i ( _nrf24_read_register (1 -> -> 17 `i `uc ]
+"372
+[; ;nrf24_lib.c: 372:  printf("[0x%02X] RX_PW_P0=%u\r\n",0x11,i);
+[e ( _printf , , (. :s 67C -> 17 `i -> _i `i ]
+"375
+[; ;nrf24_lib.c: 375:  i = nrf24_read_register(0x12);
+[e = _i ( _nrf24_read_register (1 -> -> 18 `i `uc ]
+"376
+[; ;nrf24_lib.c: 376:  printf("[0x%02X] RX_PW_P1=%u\r\n",0x12,i);
+[e ( _printf , , (. :s 68C -> 18 `i -> _i `i ]
+"379
+[; ;nrf24_lib.c: 379:  i = nrf24_read_register(0x13);
+[e = _i ( _nrf24_read_register (1 -> -> 19 `i `uc ]
+"380
+[; ;nrf24_lib.c: 380:  printf("[0x%02X] RX_PW_P2=%u\r\n",0x13,i);
+[e ( _printf , , (. :s 69C -> 19 `i -> _i `i ]
+"383
+[; ;nrf24_lib.c: 383:  i = nrf24_read_register(0x14);
+[e = _i ( _nrf24_read_register (1 -> -> 20 `i `uc ]
+"384
+[; ;nrf24_lib.c: 384:  printf("[0x%02X] RX_PW_P3=%u\r\n",0x14,i);
+[e ( _printf , , (. :s 70C -> 20 `i -> _i `i ]
+"387
+[; ;nrf24_lib.c: 387:  i = nrf24_read_register(0x15);
+[e = _i ( _nrf24_read_register (1 -> -> 21 `i `uc ]
+"388
+[; ;nrf24_lib.c: 388:  printf("[0x%02X] RX_PW_P4=%u\r\n",0x15,i);
+[e ( _printf , , (. :s 71C -> 21 `i -> _i `i ]
+"391
+[; ;nrf24_lib.c: 391:  i = nrf24_read_register(0x16);
+[e = _i ( _nrf24_read_register (1 -> -> 22 `i `uc ]
+"392
+[; ;nrf24_lib.c: 392:  printf("[0x%02X] RX_PW_P5=%u\r\n",0x16,i);
+[e ( _printf , , (. :s 72C -> 22 `i -> _i `i ]
+"393
+[; ;nrf24_lib.c: 393: }
+[e :UE 382 ]
+}
+[p f _printf 48595973 ]
+[a 47C 37 120 0 ]
+[a 50C 37 120 0 ]
+[a 53C 37 120 0 ]
+[a 56C 37 120 0 ]
+[a 59C 37 120 0 ]
+[a 62C 37 120 0 ]
+[a 65C 37 120 0 ]
+[a 9C 91 80 37 49 117 37 115 93 37 115 0 ]
+[a 15C 91 80 37 49 117 37 115 93 37 115 0 ]
+[a 7C 84 88 0 ]
+[a 6C 82 88 0 ]
+[a 40C 89 69 83 0 ]
+[a 44C 89 69 83 0 ]
+[a 41C 78 79 0 ]
+[a 45C 78 79 0 ]
+[a 4C 79 78 0 ]
+[a 24C 79 78 0 ]
+[a 26C 79 78 0 ]
+[a 5C 79 70 70 0 ]
+[a 25C 79 70 70 0 ]
+[a 27C 79 70 70 0 ]
+[a 37C 63 63 63 0 ]
+[a 23C 91 48 120 37 48 50 88 93 32 48 120 37 48 50 88 32 67 79 78 84 95 87 65 86 69 58 37 115 32 80 76 76 95 76 79 67 75 58 37 115 32 68 97 116 97 82 97 116 101 61 0 ]
+[a 32C 82 70 95 80 87 82 61 0 ]
+[a 33C 45 49 56 0 ]
+[a 35C 45 54 0 ]
+[a 34C 45 49 50 0 ]
+[a 36C 48 0 ]
+[a 11C 45 0 ]
+[a 17C 45 0 ]
+[a 10C 43 0 ]
+[a 16C 43 0 ]
+[a 64C 91 48 120 37 48 50 88 93 32 84 88 95 65 68 68 82 32 34 0 ]
+[a 61C 91 48 120 37 48 50 88 93 32 82 88 95 65 68 68 82 95 80 53 32 34 0 ]
+[a 58C 91 48 120 37 48 50 88 93 32 82 88 95 65 68 68 82 95 80 52 32 34 0 ]
+[a 55C 91 48 120 37 48 50 88 93 32 82 88 95 65 68 68 82 95 80 51 32 34 0 ]
+[a 52C 91 48 120 37 48 50 88 93 32 82 88 95 65 68 68 82 95 80 50 32 34 0 ]
+[a 49C 91 48 120 37 48 50 88 93 32 82 88 95 65 68 68 82 95 80 49 32 34 0 ]
+[a 46C 91 48 120 37 48 50 88 93 32 82 88 95 65 68 68 82 95 80 48 32 34 0 ]
+[a 30C 50 53 48 107 98 112 115 32 0 ]
+[a 29C 50 77 98 112 115 32 0 ]
+[a 28C 49 77 98 112 115 32 0 ]
+[a 31C 63 63 63 32 0 ]
+[a 14C 91 48 120 37 48 50 88 93 32 48 120 37 48 50 88 32 69 78 95 82 88 65 68 68 82 58 32 0 ]
+[a 8C 91 48 120 37 48 50 88 93 32 48 120 37 48 50 88 32 69 78 65 65 58 32 0 ]
+[a 13C 32 0 ]
+[a 19C 32 0 ]
+[a 42C 91 48 120 37 48 50 88 93 32 48 120 37 48 50 88 32 80 76 79 83 95 67 78 84 61 37 117 32 65 82 67 95 67 78 84 61 37 117 13 10 0 ]
+[a 72C 91 48 120 37 48 50 88 93 32 82 88 95 80 87 95 80 53 61 37 117 13 10 0 ]
+[a 71C 91 48 120 37 48 50 88 93 32 82 88 95 80 87 95 80 52 61 37 117 13 10 0 ]
+[a 70C 91 48 120 37 48 50 88 93 32 82 88 95 80 87 95 80 51 61 37 117 13 10 0 ]
+[a 69C 91 48 120 37 48 50 88 93 32 82 88 95 80 87 95 80 50 61 37 117 13 10 0 ]
+[a 68C 91 48 120 37 48 50 88 93 32 82 88 95 80 87 95 80 49 61 37 117 13 10 0 ]
+[a 67C 91 48 120 37 48 50 88 93 32 82 88 95 80 87 95 80 48 61 37 117 13 10 0 ]
+[a 3C 91 48 120 37 48 50 88 93 32 48 120 37 48 50 88 32 77 65 83 75 58 37 48 51 88 32 67 82 67 58 37 48 50 88 32 80 87 82 58 37 115 32 77 79 68 69 58 80 37 115 13 10 0 ]
+[a 43C 91 48 120 37 48 50 88 93 32 48 120 37 48 50 88 32 82 80 68 61 37 115 13 10 0 ]
+[a 39C 91 48 120 37 48 50 88 93 32 48 120 37 48 50 88 32 73 82 81 58 37 48 51 88 32 82 88 95 80 73 80 69 58 37 117 32 84 88 95 70 85 76 76 58 37 115 13 10 0 ]
+[a 38C 100 66 109 13 10 0 ]
+[a 2C 114 102 67 97 114 100 80 114 101 115 101 110 116 32 61 32 84 82 85 69 13 10 0 ]
+[a 22C 91 48 120 37 48 50 88 93 32 48 120 37 48 50 88 32 40 37 46 51 117 71 72 122 41 13 10 0 ]
+[a 21C 91 48 120 37 48 50 88 93 32 48 120 37 48 50 88 32 65 82 68 61 37 88 32 65 82 67 61 37 88 32 40 114 101 116 114 46 100 101 108 97 121 61 37 117 117 115 44 32 99 111 117 110 116 61 37 117 41 13 10 0 ]
+[a 20C 91 48 120 37 48 50 88 93 32 48 120 37 48 50 88 32 69 78 95 82 88 65 68 68 82 61 37 48 54 98 32 40 97 100 100 114 101 115 115 32 119 105 100 116 104 32 61 32 37 117 41 13 10 0 ]
+[a 1C 110 114 102 50 52 95 115 101 116 95 114 102 95 109 111 100 101 40 109 111 100 101 41 13 10 0 ]
+[a 60C 37 120 34 13 10 0 ]
+[a 63C 37 120 34 13 10 0 ]
+[a 54C 37 104 34 13 10 0 ]
+[a 57C 37 104 34 13 10 0 ]
+[a 48C 34 13 10 0 ]
+[a 51C 34 13 10 0 ]
+[a 66C 34 13 10 0 ]
+[a 12C 13 10 0 ]
+[a 18C 13 10 0 ]
